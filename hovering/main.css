@@ -1,0 +1,20 @@
+body{
+	background-color: yellow ;
+}
+
+a{
+	font-size:60px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px dashed;
+}
+a:hover{
+	color: magenta;
+}
+
+a:visited {
+	color: green;
+}
+a:active {
+	color: white;
+}
