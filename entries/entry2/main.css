@@ -1,0 +1,17 @@
+body{
+	background-image: url("imgs/background.gif");
+	background-repeat: repeat-y;
+	font-family: courier
+}
+h1{
+  font-size:86px;
+  color:floralwhite;
+}
+a{
+font-size: 60px;
+color:aquamarine;
+}
+h2{
+	font-size:30px ;
+	color: hotpink;
+}
