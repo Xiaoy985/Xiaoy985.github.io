@@ -1,0 +1,154 @@
+body {
+    background-image: url("imgs/background.gif");
+	background-repeat: repeat-y;
+	padding: 10px;
+  }
+
+.title{
+font-size: 80px;
+text-align: center;
+color:greenyellow;
+font-family: 'Silkscreen', cursive;
+}
+
+
+.title {
+  background: -webkit-linear-gradient(#e128ff, #ff5151);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.title:hover {
+  background: -webkit-radial-gradient(#00e6ff, #fbff00, #03ed00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.imgfilters img {
+  display: block;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  padding: 60px 0 60px 0;
+}
+
+.imgfilters img:hover {
+  filter: none;
+  cursor: pointer;
+}
+img{
+	position: absolute;
+	top:65%;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%,-50%);
+	max-width: 100%;
+}
+
+.text{
+  width: 150px;
+  height: 90px;
+  background: -webkit-linear-gradient(#1bffac, #f4fd1d);
+  transition: width 1s, height 4s;
+  font-family: 'Permanent Marker', cursive;
+ color: hotpink;
+ font-size: 20px;
+ position: absolute;
+	top:25%;
+	left: 30%;
+	right: 50%;
+}
+.text:hover {
+  width: 250px;
+  height:50px;
+}
+.text1{
+	width: 90px;
+  height: 110px;
+  background: -webkit-linear-gradient(#ffc71b, #fd1d83);
+  transition: width 2s, height 3s;
+  font-family: 'Permanent Marker', cursive;
+ color: ghostwhite;
+ font-size: 20px;
+ position: absolute;
+	top:80%;
+	left: 30%;
+	right: 50%;
+
+}
+.text1:hover {
+ width: 200px;
+  height:80px;
+}
+.text2{
+	width: 90px;
+  height: 160px;
+  background: -webkit-linear-gradient(#1bfff1, #bd60ff);
+  transition: width 2s, height 3s;
+  font-family: 'Permanent Marker', cursive;
+ color: ghostwhite;
+ font-size: 20px;
+ position: absolute;
+	top:40%;
+	left: 80%;
+	right: 50%;
+}
+.text2:hover {
+ width: 250px;
+  height:60px;
+}
+.text3{
+	width: 180px;
+  height: 160px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse; 
+  color: greenyellow;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  font-weight: 700;
+
+}
+@keyframes example {
+  0%   {background-color:#9bff60; left:0px; top:0px;}
+  25%  {background-color:#ff6060; left:200px; top:0px;}
+  50%  {background-color:#60ffeb; left:200px; top:200px;}
+  75%  {background-color:#fffb60; left:0px; top:200px;}
+  100% {background-color:#6091ff; left:0px; top:0px;}
+}
+.text4{
+	width: 150px;
+  height: 100px;
+  background-color: floralwhite;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  font-weight: 700;
+  color: orangered;
+}
+@keyframes example {
+  0%   {background-color:#90aded; left:0px; top:0px;}
+  25%  {background-color:#ed90e6; left:200px; top:0px;}
+  50%  {background-color:#ed90b3; left:200px; top:200px;}
+  75%  {background-color:#edad90; left:0px; top:200px;}
+  100% {background-color:#ede690; left:0px; top:0px;}
+}
+.smilingface{
+	position: relative;
+	top:85%;
+	left: 76%;
+	right: 30%;
+	transform: translate(-50%,-50%);
+	max-width: 100%;
+
+}
+
