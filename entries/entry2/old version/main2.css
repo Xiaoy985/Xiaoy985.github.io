@@ -1,0 +1,7 @@
+body{
+	background-image: url("imgs/starbackground.gif");
+	background-repeat: repeat-y;
+}
+h1{
+	color: lightpink;
+}

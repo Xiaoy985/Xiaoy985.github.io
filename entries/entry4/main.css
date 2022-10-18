@@ -3,13 +3,15 @@
     margin: 10px;
 }
 Body{
-	background-color: lightyellow;
+  background-image: url("imgs/background.gif");
+  background-repeat: repeat-y;
+  padding: 10px;
 }
 h1{
 	background-color: ;
 	font-family: 'Gochi Hand', cursive;
 	text-align: center;
-	font-size: 50px;
+	font-size: 70px;
 	color: floralwhite;
 }
 .faerie {
@@ -45,49 +47,9 @@ h1{
         100%{background-position:0% 30%}
     }
 p{
-	font-family: 'Covered By Your Grace', cursive;
-	font-size: 30px;
-	color: lightpink;
-}
-.link{
-	color: #fad435;
-	text-decoration: none;
-	background-color: #ffe3fe;
-	transition: all 0.2s ease;
-}
-
-.link:hover {
-  background-color: ghostwhite;
-}
-.link:visited{
-	color: blueviolet;
-}
-.dog1 {
-  color: rosybrown;
-  font-size: 33px;
-  border-bottom: 3px solid;
- }
-.dog1:hover {
-  border-bottom: 5px dashed;
-  cursor: pointer;
-}
-.dog2{
-	color: lightgray;
-	font-size: 33px;
-	border-bottom: 3px solid;
-}
-.dog2:hover {
-  border-bottom: 5px dashed;
-  cursor: pointer;
-}
-.him{
-	font-size: 40px;
-	color: deeppink;
-	transition: all 6s ease-in-out;
-}
-.him:hover {
-  cursor: pointer;
-  font-size: 5em;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 30px;
+  color: lightpink;
 }
 
 .rotatepicture {
@@ -100,92 +62,102 @@ transition: all 0.9s ease;
   cursor: pointer;
 }
 
-.fillrect {
-  border: 2px solid #f4e174;
-  padding: 0 3px;
-  transition: all 0.6s ease;
-}
-
-.fillrect:hover {
-  background-color: #f4e174;
-  cursor: pointer;
-}
-.list{
-	margin: 20px;
-	color: hotpink;
-	font-family: 'Caveat', cursive;
-	font-weight: 500;
-	font-size: 30px;
-}
-.alternate{
-padding: 0px;
-margin: 0px;
-  color: white;
-  transition: all 2s linear;
-}
-
-.alternate:hover {
-  background-color: hotpink;
-  cursor: pointer;
-}
-
-.picture{
-
-  background-color: floralwhite;
-  text-decoration: none;
-  position: relative;
-}
-.picture:hover:after {
-  content: url(imgs/pupuonfeet.png);
+.img1{
   position: absolute;
-  left: 50%;
-  top: 50%;
-  size: 50%;
-  transform: translate(-50%, -50%);
+  top:75%;
+  left: 0%;
+  right: 100%;
+  border-radius:80%;
 }
-.picture2{
-  background-color: floralwhite;
-  text-decoration: none;
-  position: relative;
-}
-.picture2:hover:after {
-  content: url(imgs/pupuwink.png);
+
+.img2{
   position: absolute;
-  left: 50%;
-  top: 50%;
-  size: 50%;
-  transform: translate(-50%, -50%);
+  top:10%;
+  left: 68%;
+  right: 32%;
+
 }
 
-.list2{
-	margin: 20px;
-	color: deeppink;
-	font-family: 'Caveat', cursive;
-	font-weight: 500;
-	font-size: 30px;
+.text{
+  width: 300px;
+  height: 150px;
+  background: -webkit-linear-gradient(#fff35d, #ffc471);
+  transition: width 2s, height 2.5s;
+ color: orange;
+ font-size: 25px;
+ position: absolute;
+  top:25%;
+  left: 20%;
+  right: 80%;
 }
-.highlight{
-	font-size: 70px;
-	color: orange;
-}
-.cursor{
-	color: orange;
+.text:hover {
+  width: 150px;
+  height:250px;
 }
 
-.cursor{
-	cursor: url(imgs/pupu-cursor.png), auto;
+.text1{
+  width: 120px;
+  height: 270px;
+  background: -webkit-linear-gradient(#f28aff, #1bfff1);
+  transition: width 2s, height 2.5s;
+ color: navajowhite;
+ font-size: 25px;
+ position: absolute;
+  top:50%;
+  left: 70%;
+  right: 30%;
 }
-.gradient-fill{
-	font-size: 55px;
-	font-family: 'Hachi Maru Pop', cursive;
-	background: -webkit-linear-gradient(#ffe3fe, #00d4ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.5s ease;
+.text1:hover {
+  width: 200px;
+  height:180px;
 }
-.gradient-fill:hover {
-  background: -webkit-radial-gradient(#eeaeca, #fcb9fa, #94bbe9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: pointer;
+
+.text2{
+  width: 400px;
+  height: 150px;
+  background: -webkit-linear-gradient(#beff8c, #ff8aac);
+  transition: width 2s, height 2.5s;
+ color: floralwhite;
+ font-size: 25px;
+ position: absolute;
+  top:96%;
+  left: 60%;
+  right: 40%;
+}
+.text2:hover {
+  width: 200px;
+  height:250px;
+}
+
+.text3{
+  width: 240px;
+  height: 380px;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse; 
+  color: greenyellow;
+  font-size: 35px;
+font-family: 'Hachi Maru Pop', cursive;
+}
+@keyframes example {
+  0%   {background-color:#9bff60; left:0px; top:0px;}
+  25%  {background-color:#ff6060; left:200px; top:0px;}
+  50%  {background-color:#60ffeb; left:200px; top:200px;}
+  75%  {background-color:#fffb60; left:0px; top:200px;}
+  100% {background-color:#6091ff; left:0px; top:0px;}
+}
+
+.link{
+	color: #fad435;
+	text-decoration: none;
+	background-color: #ffe3fe;
+	transition: all 0.2s ease;
+}
+
+.link:hover {
+  background-color: ghostwhite;
+}
+.link:visited{
+	color: blueviolet;
 }

@@ -2,6 +2,7 @@ body{
 	background-image: url("imgs/entry3-bg.gif");
 	background-repeat: repeat-y;
 	background-color:lightgreen; 
+	font-family: 'Luckiest Guy', cursive;
 }
 h1{
 	color: ghostwhite;
@@ -45,4 +46,92 @@ h3{
 h4{
 	font-size:80px;
 	color: orangered;
+}
+
+.text{
+  width: 150px;
+  height: 90px;
+  background: #ff8aac;
+  position: absolute;
+  left:80%;
+  right:20%;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+ 
+ color: lightyellow;
+ font-size: 30px;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 900px; background-color: #ffc471;}
+}
+.text1{
+	width: 400px;
+  height: 60px;
+  background: -webkit-linear-gradient(#ffc71b, #fd1d83);
+  transition: width 2s, height 3s;
+ color: ghostwhite;
+ font-size: 30px;
+ position: absolute;
+	top:90%;
+	left: 50%;
+	right: 50%;
+}
+.text1:hover {
+ width: 170px;
+  height:150px;
+}
+.text2{
+  width: 280px;
+  height: 160px;
+  position: absolute;
+  font-size: 20px;
+color: lightpink;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  0%   {background-color:#bf58ff; left:800px; top:200px;}
+  25%  {background-color:#ef58ff; left:600px; top:300px;}
+  50%  {background-color:#ffc8fd; left:900px; top:400px;}
+  75%  {background-color:#00d4ff; left:600px; top:300px;}
+  100% {background-color:#004aff; left:800px; top:200px;}
+}
+
+.text3{
+	width: 600px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(217,63,251,1) 17%, rgba(202,252,70,1) 84%);
+  transition: width 2s, height 3s;
+ color: lightcyan;
+ font-size: 30px;
+ position: absolute;
+	top:170%;
+	left: 30%;
+	right: 70%;
+}
+.text3:hover {
+ width: 320px;
+  height:190px;
+}
+
+.text4 {
+  width: 160px;
+  height: 160px;
+ background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(55,237,239,1)100%);
+  transition: width 2s, height 2s, transform 2s;
+  position: absolute;
+	top:250%;
+	left: 30%;
+	right: 70%;
+	font-size: 20px;
+	color: lightpink;
+}
+
+.text4:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
 }

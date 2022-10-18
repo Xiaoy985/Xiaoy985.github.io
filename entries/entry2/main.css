@@ -1,17 +1,145 @@
+
+* {
+    padding: 5px;
+    margin: 10px;
+}
 body{
-	background-image: url("imgs/background.gif");
+	background-image: url("imgs/starbackground.gif");
 	background-repeat: repeat-y;
-	font-family: courier
 }
 h1{
-  font-size:86px;
-  color:floralwhite;
-}
-a{
-font-size: 60px;
-color:aquamarine;
-}
-h2{
-	font-size:30px ;
 	color: hotpink;
+	font-size: 90px;
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 700;
+}
+
+.guitar1{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+.guitar2{
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	transition: all 0.9s ease;
+}
+.guitar2:hover {
+  -webkit-transform: rotate(-480deg) scale(2);
+  transform: rotate(-360deg) scale(1.5);
+  cursor: pointer;
+}
+
+.guitar3{
+	position: absolute;
+	top: 32%;
+	left: 70%;
+}
+.guitar4{
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	transition: width 2s;
+}
+.guitar4:hover {
+  width: 300px;
+}
+.guitar5{
+	position: absolute;
+	top: 70%;
+	left: 80%;
+	transition: width 2s;
+}
+.guitar5:hover {
+  width: 200px;
+}
+.guitar6{
+	position: absolute;
+	top: 80%;
+	left: 40%;
+}
+
+.audio{
+position: absolute;
+	top: 90%;
+	left: 10%;
+}
+.text1{
+  width: 100px;
+  height: 320px;
+background: rgb(251,229,77);
+background: linear-gradient(90deg, rgba(251,229,77,1) 0%, rgba(255,138,199,1) 51%, rgba(113,125,255,1) 100%);
+  transition: width 2s, height 2s;
+position: absolute;
+	top: 60%;
+	left: 60%;
+	color: antiquewhite;
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+}
+
+.text1:hover {
+  width: 300px;
+  height: 100px;
+}
+
+.text2{
+	width: 160px;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse; 
+  color: greenyellow;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+}
+@keyframes example {
+  0%   {left:0px; top:200px;}
+  25%  {left:200px; top:200px;}
+  50%  {left:200px; top:400px;}
+  75%  {left:0px; top:400px;}
+  100% {left:0px; top:5px;}
+}
+.text3{
+	width: 200px;
+  height: 120px;
+background: rgb(217,63,251);
+background: radial-gradient(circle, rgba(217,63,251,1) 17%, rgba(202,252,70,1) 84%);
+  transition: width 2s, height 2s;
+position: absolute;
+	top: 30%;
+	left: 30%;
+	color: white;
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+}
+.text3:hover {
+  width: 100px;
+  height:250px;
+}
+.text4{
+  width: 150px;
+  height: 280px;
+  background: rgb(103,226,255);
+background: linear-gradient(0deg, rgba(103,226,255,1) 0%, rgba(253,45,157,1) 100%);
+  position: absolute;
+  left:70%;
+  right:35%;
+  animation-name: example2;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+  font-family: 'Bangers', cursive;
+ color: lightyellow;
+ font-size: 30px;
+ transition: width 2s, height 2s;
+}
+@keyframes example2 {
+  from {top: 520px;}
+  to {top: 50px;}
+}
+.text4:hover {
+  width: 370px;
+  height:150px;
 }

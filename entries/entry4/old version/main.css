@@ -1,0 +1,191 @@
+* {
+    padding: 5px;
+    margin: 10px;
+}
+Body{
+	background-color: lightyellow;
+}
+h1{
+	background-color: ;
+	font-family: 'Gochi Hand', cursive;
+	text-align: center;
+	font-size: 50px;
+	color: floralwhite;
+}
+.faerie {
+
+  background-color: #f474ce;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+.faerie:hover {
+  cursor: pointer;
+  background: linear-gradient(270deg, #c874f4, #f4747b, #7483f4, #74c4f4, #74f4c8);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: slideBackground 3s ease infinite;
+  -moz-animation: slideBackground 3s ease infinite;
+  animation: slideBackground 3s ease infinite;
+}
+
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:80% 50%}
+        100%{background-position:0% 30%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:80% 50%}
+        100%{background-position:0% 30%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:80% 50%}
+        100%{background-position:0% 30%}
+    }
+p{
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 30px;
+	color: lightpink;
+}
+.link{
+	color: #fad435;
+	text-decoration: none;
+	background-color: #ffe3fe;
+	transition: all 0.2s ease;
+}
+
+.link:hover {
+  background-color: ghostwhite;
+}
+.link:visited{
+	color: blueviolet;
+}
+.dog1 {
+  color: rosybrown;
+  font-size: 33px;
+  border-bottom: 3px solid;
+ }
+.dog1:hover {
+  border-bottom: 5px dashed;
+  cursor: pointer;
+}
+.dog2{
+	color: lightgray;
+	font-size: 33px;
+	border-bottom: 3px solid;
+}
+.dog2:hover {
+  border-bottom: 5px dashed;
+  cursor: pointer;
+}
+.him{
+	font-size: 40px;
+	color: deeppink;
+	transition: all 6s ease-in-out;
+}
+.him:hover {
+  cursor: pointer;
+  font-size: 5em;
+}
+
+.rotatepicture {
+transition: all 0.9s ease;
+}
+
+.rotatepicture:hover {
+  -webkit-transform: rotate(-480deg) scale(2);
+  transform: rotate(-360deg) scale(1.5);
+  cursor: pointer;
+}
+
+.fillrect {
+  border: 2px solid #f4e174;
+  padding: 0 3px;
+  transition: all 0.6s ease;
+}
+
+.fillrect:hover {
+  background-color: #f4e174;
+  cursor: pointer;
+}
+.list{
+	margin: 20px;
+	color: hotpink;
+	font-family: 'Caveat', cursive;
+	font-weight: 500;
+	font-size: 30px;
+}
+.alternate{
+padding: 0px;
+margin: 0px;
+  color: white;
+  transition: all 2s linear;
+}
+
+.alternate:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+.picture{
+
+  background-color: floralwhite;
+  text-decoration: none;
+  position: relative;
+}
+.picture:hover:after {
+  content: url(imgs/pupuonfeet.png);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  size: 50%;
+  transform: translate(-50%, -50%);
+}
+.picture2{
+  background-color: floralwhite;
+  text-decoration: none;
+  position: relative;
+}
+.picture2:hover:after {
+  content: url(imgs/pupuwink.png);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  size: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list2{
+	margin: 20px;
+	color: deeppink;
+	font-family: 'Caveat', cursive;
+	font-weight: 500;
+	font-size: 30px;
+}
+.highlight{
+	font-size: 70px;
+	color: orange;
+}
+.cursor{
+	color: orange;
+}
+
+.cursor{
+	cursor: url(imgs/pupu-cursor.png), auto;
+}
+.gradient-fill{
+	font-size: 55px;
+	font-family: 'Hachi Maru Pop', cursive;
+	background: -webkit-linear-gradient(#ffe3fe, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease;
+}
+.gradient-fill:hover {
+  background: -webkit-radial-gradient(#eeaeca, #fcb9fa, #94bbe9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+body{
+	background-image: url("imgs/entry3-bg.gif");
+	background-repeat: repeat-y;
+	background-color:lightgreen; 
+}
+h1{
+	color: ghostwhite;
+	font-size: 120px;
+	font-family: 'Luckiest Guy', cursive;
+}
+h2{
+
+}
+.special1{
+  font-size: 30px;
+  color: lightyellow;
+font-family: 'Rock Salt', cursive;
+
+}
+.special2{
+	font-size: 80px;
+	color: skyblue;
+	font-family: 'Rubik Burned', cursive;
+}
+.special3{
+	font-size: 100px;
+	color: hotpink;
+font-family: 'Press Start 2P', cursive;
+}
+.special4{
+	font-size: 200px;
+	color: orange;
+	font-family: 'Aclonica', sans-serif;
+}
+.special5{
+	font-size: 260px;
+	color: purple;
+	font-family: 'Monoton', cursive;
+}
+h3{
+	font-size: 175px;
+	color: antiquewhite;
+	font-family: 'Rubik Marker Hatch', cursive;
+}
+h4{
+	font-size:80px;
+	color: orangered;
+}

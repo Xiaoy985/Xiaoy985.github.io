@@ -130,8 +130,7 @@ img{
   animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  font-family: 'Amatic SC', cursive;
-  font-size: 40px;
+  font-family: 'Silkscreen', cursive;
   font-weight: 700;
   color: orangered;
 }
