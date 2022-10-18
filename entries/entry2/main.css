@@ -126,7 +126,7 @@ position: absolute;
 background: linear-gradient(0deg, rgba(103,226,255,1) 0%, rgba(253,45,157,1) 100%);
   position: absolute;
   left:70%;
-  right:35%;
+  right:30%;
   animation-name: example2;
   animation-duration: 3s;  
   animation-fill-mode: forwards;
