@@ -124,6 +124,31 @@ transition: all 0.9s ease;
 .entry5:active {
   text-decoration: underline;}
 
+
+.entry6{
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  font-size:50px;
+  text-decoration: none;
+  color:#ffab00;
+font-size: 40px;
+font-weight: 400;
+outline-style: dotted;
+outline-width: 4px;
+transition: all 0.9s ease;
+}
+
+.entry6:hover {
+  text-decoration: underline;
+  -webkit-transform: rotate(-480deg) scale(2);
+  transform: rotate(-360deg) scale(1.5);
+  cursor: pointer;
+}
+.entry6:active {
+  text-decoration: underline;}
+
+
 .text1{
 width: 150px;
   height: 200px;
