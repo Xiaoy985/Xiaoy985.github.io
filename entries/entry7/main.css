@@ -50,6 +50,19 @@ background-image: url("imgs/background.gif");
 	top: 80%;
 	left: 2%;
 	border-radius: 50%;;
+	animation: spinType 5s
+}
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  60% {
+    color: whitesmoke;
+    transform: rotate(0.7turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
 }
 .pic3{
 	max-width: 300px;
