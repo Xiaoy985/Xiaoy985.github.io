@@ -28,7 +28,7 @@ background-image: url("imgs/background.gif");
 	width:300px ;
 	font-size: 40px;
 	font-family: 'Pacifico', cursive;
-	color: floralwhite;
+	color: #ff4993;
   position: relative;
   animation-name: example;
   animation-duration: 5s;
