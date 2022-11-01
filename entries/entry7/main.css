@@ -56,7 +56,14 @@ background-image: url("imgs/background.gif");
 	position: absolute;
 	top: 76%;
 	left: 70%;
+	transition: all 0.9s ease;
 }
+.pic3:hover {
+  -webkit-transform: rotate(-480deg) scale(2);
+  transform: rotate(-360deg) scale(1.5);
+  cursor: pointer;
+}
+
 .text2{
 	width:200px ;
 	font-size: 20px;
