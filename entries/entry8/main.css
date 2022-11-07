@@ -1,0 +1,130 @@
+body{
+	padding: 10px;
+	background-image: url("imgs/background.gif");
+font-family: 'Poor Story', cursive;
+font-size: 30px;
+}
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	color: green;
+}
+.pic1{
+	max-width: 800px;
+}
+.pic2{
+	max-width: 300px;
+	position: absolute;
+	top: 30%;
+	left: 6%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  animation: example 5s ease-in-out 2s infinite;
+}
+@keyframes example {
+	0%{
+	transform: 
+}
+50%{
+	transform: matrix(1, 2, 3, 2, 1, 2);
+	}
+	100%{
+		transform: 
+	}
+}
+.pic2:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.pic3{
+	max-width: 400px;
+	position: absolute;
+	top: 55%;
+	left: 65%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  animation: example1 2s ease-in-out 2s infinite;
+}
+
+@keyframes example1 {
+	0%{
+	transform: 
+}
+50%{
+	transform: rotate3d(1, 2, 3, 20deg)
+	}
+	100%{
+		transform: 
+	}
+}
+.pic3:hover {
+  filter: none;
+  cursor: pointer;
+}
+.text1{
+	width: 200px;
+	position: absolute;
+	top: 20%;
+	left: 77%;
+color:white;
+transition: width 3s, height 3s;
+background: linear-gradient(90deg, rgba(251,236,133,1) 0%, rgba(176,254,147,1) 51%, rgba(42,233,93,1) 100%);
+}
+.text1:hover{
+width: 300px;
+cursor: pointer;
+}
+.text2{
+	width: 400px;
+	position: absolute;
+	top: 80%;
+	left: 1%;
+color:greenyellow;
+animation-name: example2;
+  animation-duration: 5s;  
+  animation-fill-mode: forwards;
+}
+@keyframes example2 {
+  from {border-left: 1%;}
+  to {left: 30%;}
+}
+.text2:hover{
+	color: black;
+	cursor: pointer;
+}
+.text3{
+	position: absolute;
+	top:5% ;
+	left: 5%;
+	color: white;
+	width: 150px;
+	transition: width 3s;
+}
+.text3:hover{
+	width: 400px;
+	cursor: pointer;
+	color: red;
+}
+.text4{
+	width: 200px;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	animation: spinType 2s ease-in-out 2s infinite alternate;
+}
+@keyframes spinType {
+  0% {
+  	color:#20c94d ;
+    transform: rotate(0.5turn);
+  }
+  60% {
+    color: black;
+    transform: rotate(0.7turn);
+  }
+  100% {
+  	color: red;
+    transform: rotate(1turn);
+  }
+}
