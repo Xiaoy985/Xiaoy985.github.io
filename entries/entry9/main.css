@@ -1,0 +1,139 @@
+body {
+  background-image: url("imgs/background.gif");
+  background-repeat: repeat;
+  color:  white;
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+  color: greenyellow;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.h1 {
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+  font-size: 50px;
+animation-name: example;
+animation-duration: 5s;
+ animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {color: #FF4013;}
+  25%  {color: #FF6A00;}
+  50%  {color: #FFAA00;}
+  100% {color: #FFFC41;}
+}
+.button {
+  background-color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+  color: yellow;
+  font-size: 36px;
+  font-family: Arial;
+}
+
+.button:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: 90ms ease;
+}
+
+.pic1{
+  max-width: 200px;
+  position: absolute;
+  top:60%;
+  left: 10%;
+  border-radius: 50%;
+  transition: all 0.9s ease;
+}
+.pic1:hover{
+  -webkit-transform: rotate(-480deg) scale(2);
+  transform: rotate(-360deg) scale(1.5);
+  cursor: pointer;
+}
+
+.pic2{
+  max-width: 300px;
+  position: absolute;
+  top:70%;
+  left: 60%;
+  border-radius: 20%;
+  transition: all 0.9s ease;
+}
+.pic2:hover{
+  -webkit-transform: rotate(-480deg) scale(2);
+  transform: rotate(-360deg) scale(1.5);
+  cursor: pointer;
+}
+.pic3{
+  max-width: 150px;
+  position: absolute;
+  top:17%;
+  left: 70%;
+  border-radius: 50%;
+  animation: example0 5s ease-in-out 2s infinite;
+}
+
+.pic4{
+  max-width: 80px;
+  position: absolute;
+  top:53%;
+  left: 18%;
+  border-radius: 50%;
+  transition: all 0.9s ease;
+}
+.pic4:hover{
+  -webkit-transform: rotate(-480deg) scale(2);
+  transform: rotate(-360deg) scale(4);
+  cursor: pointer;
+}
+@keyframes example0 {
+  0%{
+  transform: 
+}
+50%{
+  transform: matrix(1, 1.5, 2, 1.5, 1, 2);
+  }
+  100%{
+    transform: 
+  }
+}
+
+.cursor{
+  position: absolute;
+  top: 20%;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  cursor:url(imgs/pikachu.png), auto;
+  color: white;
+}
+
+@keyframes example2 {
+  0%   {background-color:#ff7513; left:100px; top:100px;}
+  25%  {background-color:#fec193; left:300px; top:100px;}
+  50%  {background-color:#fbec85; left:300px; top:300px;}
+  75%  {background-color:#fec193; left:100px; top:300px;}
+  100% {background-color:#ff7513; left:100px; top:100px;}
+}
+
+.cursor2{
+  position: absolute;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  cursor:url(imgs/Oshawott.png), auto;
+  color: white;
+}
+@keyframes example3 {
+  0%   {background-color:#13a6ff; left:200px; top:300px;}
+  25%  {background-color:#85dbfb; left:200px; top:500px;}
+  50%  {background-color:#93edfe; left:800px; top:500px;}
+  75%  {background-color:#85dbfb; left:800px; top:300px;}
+  100% {background-color:#13a6ff; left:200px; top:300px;}
+}
