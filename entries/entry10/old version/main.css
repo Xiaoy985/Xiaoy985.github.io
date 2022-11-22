@@ -1,0 +1,108 @@
+body{
+  padding: 10px;
+     background: linear-gradient(270deg, #7deed1, #80ddec, #7fa5f2, #d29bf7, #ea7fd3, #f77575, #f7c175, #eef775);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.h1{
+  font-family: 'Rubik Microbe', cursive;
+  font-size: 50px;
+  color: white;
+}
+.pic1{
+  max-width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+.pic2{
+  max-width: 160px;
+  border-radius: 50%;
+  position: absolute;
+  top: 75%;
+  left: 45%;
+}
+.pic3{
+  max-width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 75%;
+}
+.pic4{
+  max-width: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 30%;
+}
+.pic5{
+  max-width: 220px;
+  border-radius: 50%;
+  position: absolute;
+  top: 55%;
+  left: 80%;
+}
+.pic6{
+  max-width: 180px;
+  border-radius: 50%;
+  position: absolute;
+  top: 55%;
+  left: 12%;
+}
+.pic7{
+  max-width: 240px;
+  border-radius: 50%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+}
+.pic8{
+  max-width: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 58%;
+  left: 60%;
+}
+.pic9{
+  max-width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: 28%;
+  left: 25%;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blob {
+      position: absolute;
+      width: 240px;
+      height: 240px;
+      background: #030961;
+      border-radius: 50%;
+      mix-blend-mode: color-dodge;
+}

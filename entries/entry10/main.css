@@ -1,0 +1,159 @@
+body{
+padding: 10px;
+font-size: 30px; 
+font-family: 'Rubik Distressed', cursive;
+     background: linear-gradient(270deg, #7deed1, #80ddec, #7fa5f2, #d29bf7, #ea7fd3, #f77575, #f7c175, #eef775);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.h1{
+  font-family: 'Rubik Microbe', cursive;
+  font-size: 50px;
+  color: white;
+}
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.word1 {
+    position: absolute;
+    top:20%;
+    left: 15%;
+    animation:example1 3s infinite;
+}
+@keyframes example1 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.word2 {
+    position: absolute;
+    top:40%;
+    left: 65%;
+    animation:example2 5s infinite;
+}
+@keyframes example2 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.word3 {
+    position: absolute;
+    top:70%;
+    left: 45%;
+    animation:example3 4s infinite;
+}
+@keyframes example3 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.word4 {
+    position: absolute;
+    top:35%;
+    left: 25%;
+    animation:example4 6s infinite;
+}
+@keyframes example4 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.word5 {
+    position: absolute;
+    top:50%;
+    left: 75%;
+    animation:example5 3s infinite;
+}
+@keyframes example5 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.word6 {
+    position: absolute;
+    top:80%;
+    left: 70%;
+    animation:example6 5s infinite;
+}
+@keyframes example6 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.word7 {
+    position: absolute;
+    top:70%;
+    left: 15%;
+    animation:example6 4s infinite;
+}
+@keyframes example7 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.word8 {
+    position: absolute;
+    top:80%;
+    left: 35%;
+    animation:example8 6s infinite;
+}
+@keyframes example8 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.word9 {
+    position: absolute;
+    top:30%;
+    left: 85%;
+    animation:example9 3s infinite;
+}
+@keyframes example9 {
+  0%   {color: white;}
+  25%  {color: transparent;}
+  50%  {color: white;}
+  100% {color: transparent;}
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blob {
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+}
