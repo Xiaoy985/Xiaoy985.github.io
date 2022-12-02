@@ -1,0 +1,135 @@
+body {
+  padding: 10px;
+  background: rgb(0,254,218);
+  background: linear-gradient(90deg, rgba(0,254,218,1) 0%, rgba(0,91,218,1) 46%, rgba(119,205,203,1) 100%);
+  color:  white;
+  font-size: 20px;
+ font-family: 'Permanent Marker', cursive;
+  overflow-x: hidden;
+
+   background: linear-gradient(270deg, #73e4c7, #aeea49, #3fc7e6, #f0e58a);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 70px;
+}
+.text1{
+  background-color:pink ;
+  max-width: 200px;
+  opacity: 0.8;
+  transition: 2s;
+}
+.text1:hover{
+  opacity: 1;
+  background-color:gold ;
+  color: greenyellow;
+  cursor: pointer;
+  max-width: 400px;
+}
+.text2{
+background-color:orange;
+opacity: 0.8;
+color: green;
+max-width: 300px;
+transition: 2s;
+position: absolute;
+left: 70%;
+top: 30%;
+}
+.text2:hover{
+  opacity: 1;
+  background-color: yellow;
+  color: orange;
+  cursor: pointer;
+  max-width: 180px;
+}
+.text3{
+  background-color:skyblue;
+opacity: 0.8;
+color: white;
+max-width: 250px;
+transition: 2s;
+position: absolute;
+left: 50%;
+top:50%;
+}
+.text3:hover{
+  opacity: 1;
+  background-color: mediumpurple;
+  color: whitesmoke;
+  cursor: pointer;
+  max-width: 300px;
+}
+.text4{
+  background-color:rebeccapurple;
+opacity: 0.8;
+color: lightpink;
+max-width: 200px;
+transition: 2s;
+position: absolute;
+left: 20%;
+top: 66%;
+}
+.text4:hover{
+  opacity: 1;
+  background-color: gray;
+  color: floralwhite;
+  cursor: pointer;
+  max-width: 350px;
+}
+.text5{
+  background-color:limegreen;
+opacity: 0.8;
+color: orange;
+max-width: 150px;
+transition: 2s;
+position: absolute;
+left: 70%;
+top: 80%;
+}
+.text5:hover{
+  opacity: 1;
+  background-color: yellow;
+  color: orangered;
+  cursor: pointer;
+  max-width: 220px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blob {
+      position: absolute;
+      max-height: 250px;
+      background: #030961;
+      transition: 2s;
+}
+.blob:hover{
+max-height: 300px;
+cursor: pointer;
+}
