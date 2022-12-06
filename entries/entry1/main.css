@@ -1,11 +1,12 @@
 body{
 	font-family: corier;
 	background-image: url("imgs/background.gif");
-	font-family: 'Geostar Fill', cursive;
+  font-family: 'Permanent Marker', cursive;
 	color: mediumpurple;
 	font-size: 35px;
 }
 .heading{
+  font-family: 'Geostar Fill', cursive;
 	transition: all 0.9s ease;
 }
 .heading:hover {
@@ -15,8 +16,9 @@ body{
 }
 .img1{
 	position: absolute;
-top: 20%;
+top: 30%;
 left: 30%;
+max-width: 600px;
 transition: all 0.9s ease;
 }
 .img1:hover {
@@ -25,6 +27,7 @@ transition: all 0.9s ease;
   cursor: pointer;
 }
 .img2{
+  max-width: 360px;
 	position: absolute;
 top: 50%;
 left: 50%;
@@ -35,6 +38,7 @@ transition: width 2s;
 }
 
 .img3{
+  max-width: 420px;
 position: absolute;
 top: 50%;
 left: 3%;
@@ -48,9 +52,10 @@ animation-name: example2;
  } 
 
 .img4{
+  max-width: 360px;
 position: absolute;
 top: 10%;
-left: 60%;
+left: 65%;
 animation-name: example3;
   animation-duration: 3s;  
   animation-fill-mode: forwards;
@@ -62,32 +67,27 @@ animation-name: example3;
 
 .text1{
   width: 500px;
-  height: 80px;
 background: rgb(185,95,254);
 background: radial-gradient(circle, rgba(185,95,254,1) 0%, rgba(249,251,131,1) 50%, rgba(255,73,220,1) 100%);
   transition: width 2s, height 2s;
 position: absolute;
 	top: 70%;
 	left: 16%;
-	color: deeppink;
-	font-family: 'Geostar Fill', cursive;
+	color: blueviolet;
 	font-size: 20px;
 }
 .text1:hover {
   width: 200px;
-  height:170px;
 }
 
 .text2{
 	width: 180px;
-  height: 220px;
 	position: absolute;
 	top: 20%;
 	left: 50%;
 	transition: all 0.9s ease;
-	font-family: 'Geostar Fill', cursive;
 	font-size: 20px;
-	color: greenyellow;
+	color: white;
 	background: rgb(223,255,103);
 background: linear-gradient(0deg, rgba(223,255,103,1) 0%, rgba(107,45,253,1) 100%);
 }
@@ -99,34 +99,28 @@ background: linear-gradient(0deg, rgba(223,255,103,1) 0%, rgba(107,45,253,1) 100
 .text3{
 width: 160px;
   position: absolute;
-  animation-name: ani;
-  animation-duration: 4s;
-  animation-direction: reverse; 
+  animation:ani 10s infinite;
   color: lightgray;
-  font-family: 'Geostar Fill', cursive;
 	font-size: 20px;
 }
 @keyframes ani {
   0%   {left:0px; top:0px;}
   25%  {left:200px; top:0px;}
-  50%  {left:400px; top:400px;}
-  75%  {left:600px; top:0px;}
-  100% {left:800px; top:400px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
 }
 .text4{
-  width: 150px;
-  height: 280px;
+  width: 180px;
   background: rgb(103,226,255);
 background: linear-gradient(0deg, rgba(103,226,255,1) 0%, rgba(253,45,157,1) 100%);
   position: absolute;
   top: 50%;
-  left:82%;
-   font-family: 'Geostar Fill', cursive;
+  left:75%;
 	font-size: 20px;
  color: lightyellow;
  transition: width 2s, height 2s;
 }
 .text4:hover {
-  width: 200px;
-  height:180px;
+  width: 230px;
 }

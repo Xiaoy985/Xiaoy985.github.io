@@ -1,7 +1,8 @@
 body{
 	padding: 10px;
 	background-image: url("imgs/background.gif");
-font-family: 'Poor Story', cursive;
+font-family: 'Permanent Marker', cursive;
+background-repeat: repeat;
 font-size: 30px;
 }
 h1{

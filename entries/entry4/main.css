@@ -4,7 +4,7 @@
 }
 Body{
   background-image: url("imgs/background.gif");
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   padding: 10px;
 }
 h1{
@@ -47,7 +47,7 @@ h1{
         100%{background-position:0% 30%}
     }
 p{
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Permanent Marker', cursive;
   font-size: 30px;
   color: lightpink;
 }
@@ -80,7 +80,6 @@ transition: all 0.9s ease;
 
 .text{
   width: 300px;
-  height: 150px;
   background: -webkit-linear-gradient(#fff35d, #ffc471);
   transition: width 2s, height 2.5s;
  color: orange;
@@ -92,12 +91,10 @@ transition: all 0.9s ease;
 }
 .text:hover {
   width: 150px;
-  height:250px;
 }
 
 .text1{
   width: 120px;
-  height: 270px;
   background: -webkit-linear-gradient(#f28aff, #1bfff1);
   transition: width 2s, height 2.5s;
  color: navajowhite;
@@ -109,12 +106,10 @@ transition: all 0.9s ease;
 }
 .text1:hover {
   width: 200px;
-  height:180px;
 }
 
 .text2{
   width: 400px;
-  height: 150px;
   background: -webkit-linear-gradient(#beff8c, #ff8aac);
   transition: width 2s, height 2.5s;
  color: floralwhite;
@@ -126,17 +121,15 @@ transition: all 0.9s ease;
 }
 .text2:hover {
   width: 200px;
-  height:250px;
 }
 
 .text3{
   width: 240px;
-  height: 380px;
   position: absolute;
   animation: example 4s infinite reverse;
   color: greenyellow;
   font-size: 35px;
-font-family: 'Hachi Maru Pop', cursive;
+font-family: 'Permanent Marker', cursive;
 }
 @keyframes example {
   0%   {background-color:#9bff60; left:0px; top:0px;}
