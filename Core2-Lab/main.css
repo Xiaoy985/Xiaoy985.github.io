@@ -1,0 +1,61 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	line-height: 1.4;
+	padding-top: 50px;
+}
+
+.wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.heading{
+	text-align: center;
+}
+
+h1,h2{
+font-weight: 400;
+font-family: 'Ubuntu', sans-serif;s
+}
+
+h1{
+font-size: 50px;
+margin: 0;	
+letter-spacing: -0.5px;
+animation-name: colorchanging;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorchanging {
+  0% {color: #eeaeca;}
+  50% {color: #94bbe9;}
+  100% {color: #e8e994;}
+  }
+
+h2{
+font-size: 40px;
+position: relative;
+animation-name:position;
+animation-duration: 5s;  
+animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+}
+@keyframes position{
+  0% {left: -200px;}
+  50% {left: 200px;}
+  100%{left: -200px;}
+}
+
+.author{
+	background-color: yellowgreen;
+}
+a.author{
+	text-decoration: none;
+}
+a.author:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
