@@ -1,4 +1,34 @@
 body{
-	background: whitesmoke;
-	
+	background: #F75640;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 5vw;
+}
+a{
+	text-decoration: none;
+}
+.container {
+	color: white;
+}
+
+.container:hover {
+	color: black;
+}
+
+.container:hover h2 {
+	opacity: 100%;
+}
+
+h1 {
+	font-size:13vw;
+	line-height:1.1;
+	font-weight: 700;
+	max-width: 400px;
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+	font-size:6vw;
+	opacity: 0%;
+	font-weight: 400;
 }

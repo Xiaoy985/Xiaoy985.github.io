@@ -1,0 +1,103 @@
+@font-face{
+	font-family:Arvo;
+	src: url('Arvo-Regular.ttf');
+}
+@font-face{
+	font-family:Kanit;
+	src: url('Kanit-Regular.ttf');
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items:center;
+  flex-wrap:  wrap;
+  height:70vh;
+  flex-direction: column;
+  padding:10px;
+  min-height: 300px;
+  font-family: 'PT Mono', monospace;
+  color:  #042135;
+  font-size:  36px;
+  text-align:  center;
+  background-color: whitesmoke;
+}
+
+.item {
+	flex-grow: 4;
+ 	margin: 10px 10px;
+ 	width: 200px;
+}
+
+.item1 {
+  background-color: #ff62f4;
+  /*align-self: flex-end;*/
+} 
+
+
+.item2 {
+  background-color:  #00a4ff
+}
+
+.item3 {
+  background-color:  #af6801;
+}
+
+.item4 {
+  background-color:  #01ed6e;
+}
+
+.item5 {
+  background-color:  #fff93f;
+}
+
+.item6 {
+  background-color:  #ff4e00;
+}
+* {box-sizing:  border-box;}
+
+body{
+	background-color: lightgreen;
+	padding: 20px;
+	font-family:arial;
+	color: white;
+}
+h1{
+	font-size: 3rem;
+}
+h2{
+	font-size: 2rem
+}
+div{
+	font-size: 1rem;
+}
+
+@media(min-width:600px){
+html{
+	font-size: 24px;
+	text-shadow: 2px 2px 5px yellow;
+}
+body{
+	background-color: lightblue;
+	font-family:Arvo;
+}
+
+.item {
+  margin: 10px 10px;
+  width: 400px;
+}
+
+@media(min-width:1000px){
+html{
+	font-size: 18px;
+	text-shadow: 2px 2px 5px limegreen;
+}
+body{
+	font-family:Kanit;
+	background-color: lightpink;
+}
+
+.item {
+  margin: 10px 10px;
+  width: 600px;
+}
