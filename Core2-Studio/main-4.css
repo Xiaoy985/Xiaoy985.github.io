@@ -32,9 +32,6 @@ h1{
 	right: 5%;
 	font-size: 11vw;
 	font-weight: 500;
-	color: transparent;
-	-webkit-text-stroke-width: 2px;
- 	-webkit-text-stroke-color: #F75640;
 }
 
 .a{
@@ -65,9 +62,6 @@ h1{
 	bottom: 20%;
 	left: 5%;
 	font-size: 13vw;
-	color: transparent;
-	-webkit-text-stroke-width: 1px;
- 	-webkit-text-stroke-color: black;
 }
 
 .container > a{
