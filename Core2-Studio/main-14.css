@@ -1,27 +1,12 @@
 body{
-		background: white;
-		color:#F75640;
-		font-family: 'Oswald', sans-serif;
-		font-size:3vw;
-}
-
-.Colon-and-Semicolon {
-		position:absolute;
-  	top:50%;
-  	left:50%;
-  	transform:translate(-50%,-50%);
-  	font-size: 20vw;
-}
-
-.Colon-and-Semicolon > a{
-		color: transparent;
-		-webkit-text-stroke-width: 2px;
- 		-webkit-text-stroke-color: #F75640;
-  	text-decoration: none;
+	background: white;
+	color:#F75640;
+	font-family: 'Oswald', sans-serif;
+	font-size:3vw;
 }
 
 .Back{
-		position:absolute;
+	position:absolute;
     top:10%;
     left:13.5%;
     transform:translate(-50%,-50%);
@@ -31,25 +16,25 @@ body{
 }
 
 .Back:hover {
-		opacity: 100%;
+	opacity: 100%;
 }
 
 .Back > a{
-		color:#F75640;
-		text-decoration: none;
+	color:#F75640;
+	text-decoration: none;
 }
 
 .Paragraph{
-		position:absolute ;
-		top: 50%;
-		left:50%;
+	position:absolute ;
+	top: 50%;
+	left:50%;
     transform:translate(-50%,-50%);
-		width: 80vw;
+	width: 80vw;
   	height: 65vh;
   	overflow-y: scroll;
- 		scrollbar-color: rebeccapurple green;
+ 	scrollbar-color: rebeccapurple green;
   	scrollbar-width: thin;
-		border-radius: 10px;
+	border-radius: 10px;
 }
 
 .Paragraph {
@@ -75,19 +60,25 @@ body{
   	background: #F75640; 
 }
 
+.Colon-and-Semicolon {
+	position:absolute;
+  	top:50%;
+  	left:50%;
+  	transform:translate(-50%,-50%);
+  	font-size: 20vw;
+}
+
+.Colon-and-Semicolon > a{
+	color: transparent;
+	-webkit-text-stroke-width: 2px;
+ 	-webkit-text-stroke-color: #F75640;
+  	text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
 
 body{
     color:black;
-}
-
-.Colon-and-Semicolon {
-    font-size: 30vw;
-}
-
-.Colon-and-Semicolon > a{
-		-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
 }
 
 .Back > a{
@@ -97,4 +88,14 @@ body{
 .Paragraph {
     height: 40vh;
 }
+
+.Colon-and-Semicolon {
+    font-size: 30vw;
+}
+
+.Colon-and-Semicolon > a{
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
 }

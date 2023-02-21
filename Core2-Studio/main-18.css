@@ -5,21 +5,6 @@ body{
     font-size:3vw;
 }
 
-.Quotation-mark {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    font-size: 20vw;
-}
-
-.Quotation-mark > a{
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
- 	  -webkit-text-stroke-color: #F75640;
-    text-decoration: none;
-}
-
 .Back{
     position:absolute;
     top:10%;
@@ -75,10 +60,33 @@ body{
     background: #F75640; 
 }
 
+.Quotation-mark {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 20vw;
+}
+
+.Quotation-mark > a{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #F75640;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
   
 body{
     color:black;
+}
+
+.Back > a{
+    color:black;
+}
+
+.Paragraph {
+    height: 40vh;
 }
 
 .Quotation-mark {
@@ -88,13 +96,5 @@ body{
 .Quotation-mark > a{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-}
-
-.Back > a{
-    color:black;
-}
-
-.Paragraph {
-    height: 40vh;
 }
 }
