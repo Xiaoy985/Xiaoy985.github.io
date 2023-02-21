@@ -36,3 +36,29 @@ h2 {
 	opacity: 0%;
 	font-weight: 400;
 }
+
+@media screen and (max-width: 600px) {
+
+body {
+   	background-color: black;
+  }
+
+.container {
+	color: white;
+}
+
+.container:hover {
+	color: black;
+}
+
+h1 {
+	font-size:15vw;
+	font-weight: 700;
+	margin: 0;
+	margin-top:30vh;
+}
+
+h2 {
+	font-size:8vw;
+}
+}

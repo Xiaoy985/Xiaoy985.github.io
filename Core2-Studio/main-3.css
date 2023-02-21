@@ -60,3 +60,32 @@ h1{
 	-webkit-text-stroke-width: 0.7px;
  	-webkit-text-stroke-color: #F75640;
 }
+
+@media screen and (max-width: 600px) {
+	
+h1{
+	color:black;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	font-size: 13vw;
+	color: transparent;
+	-webkit-text-stroke-width: 1px;
+ 	-webkit-text-stroke-color: black;
+}
+
+.container > a{
+	color:black;
+	font-size:5vw;
+}
+
+.container2 {
+	color: black;
+	font-size:6vw;
+}
+
+.container2 div:nth-child(2) {
+	color: transparent;
+	-webkit-text-stroke-width: 0.7px;
+ 	-webkit-text-stroke-color: black;
+}
