@@ -89,6 +89,10 @@ body{
     height: 40vh;
 }
 
+.Paragraph::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+
 .Quotation-mark {
     font-size: 30vw;
 }

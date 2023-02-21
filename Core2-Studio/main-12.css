@@ -50,7 +50,7 @@ body{
     border-radius: 10px;
 }
  
-p::-webkit-scrollbar-thumb {
+.Paragraph::-webkit-scrollbar-thumb {
     background-color: lightgrey;
     outline: 1px solid white;
     border-radius: 10px;
@@ -87,6 +87,10 @@ body{
 
 .Paragraph {
     height: 40vh;
+}
+
+.Paragraph::-webkit-scrollbar-thumb:hover {
+    background: black; 
 }
 
 .Apostrophe {
