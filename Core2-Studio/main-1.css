@@ -3,6 +3,9 @@ body{
 	font-family: 'Oswald', sans-serif;
 	margin-left: 5vw;
 }
+body:hover{
+	background: white;
+}
 a{
 	text-decoration: none;
 }
@@ -11,7 +14,7 @@ a{
 }
 
 .container:hover {
-	color: black;
+	color: #F75640;
 }
 
 .container:hover h2 {
@@ -24,6 +27,7 @@ h1 {
 	font-weight: 700;
 	max-width: 400px;
 	margin: 0;
+	margin-top:6rem;
 }
 
 h2 {

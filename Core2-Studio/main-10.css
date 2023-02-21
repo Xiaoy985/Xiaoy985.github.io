@@ -1,0 +1,60 @@
+body{
+	background:#F75640;
+	font-family: 'Oswald', sans-serif;
+	color:white;
+}
+
+.Exclamation-mark {
+	position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 20vw;
+}
+
+.Exclamation-mark > a{
+	color: white;
+    text-decoration: none;
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+.container > a{
+	color:white;
+	margin: 1vw 6vw;
+  	text-align: center;
+	font-size:3.5vw;
+	opacity: 50%;
+}
+
+.container > a:nth-child(2){
+	opacity: 100%;
+}
+
+.container > a{
+	text-decoration: none;
+}
+
+.a{
+	text-decoration: none;
+}
+
+.container2{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	bottom: 8%;
+	left: 8%;
+	font-size:2.7vw;
+}
+.container2 div:nth-child(2) {
+	margin-left: 1vw;
+	color: transparent;
+	-webkit-text-stroke-width: 0.7px;
+ 	-webkit-text-stroke-color: white;
+}

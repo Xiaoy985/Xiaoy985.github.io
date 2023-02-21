@@ -1,0 +1,79 @@
+body{
+	background: white;
+	color:#F75640;
+	font-family: 'Oswald', sans-serif;
+	font-size:3vw;
+}
+
+.Question-mark {
+	position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size: 20vw;
+}
+
+.Question-mark > a{
+	color: transparent;
+	-webkit-text-stroke-width: 2px;
+ 	-webkit-text-stroke-color: #F75640;
+  text-decoration: none;
+}
+
+.Back{
+	position:absolute;
+  top:10%;
+  left:13.5%;
+  transform:translate(-50%,-50%);
+  font-size: 4vw;
+  color:#F75640;
+  opacity: 50%;
+}
+
+.Back:hover {
+	opacity: 100%;
+}
+
+.Back > a{
+	color:#F75640;
+	text-decoration: none;
+}
+
+.Paragraph{
+	position:absolute ;
+	top: 50%;
+	left:50%;
+  transform:translate(-50%,-50%);
+	width: 80vw;
+ 	height: 50vw;
+  overflow-y: scroll;
+ 	scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+	border-radius: 10px;
+}
+
+.Paragraph {
+  margin: 0 0 1.5em;
+}
+
+.Paragraph::-webkit-scrollbar {
+  width: 1.5vw;
+}
+ 
+.Paragraph::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+ 
+.Paragraph::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+  outline: 1px solid white;
+  border-radius: 10px;
+}
+
+.Paragraph::-webkit-scrollbar-thumb:hover {
+  background: #F75640; 
+}
+
+
+
