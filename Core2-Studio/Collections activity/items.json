@@ -1,0 +1,58 @@
+[
+  {
+    "name": "PELLO",
+    "image": "https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg?f=xl",
+    "article_number": "700.784.63",
+    "price": "$79.99",
+    "category": "Armchair"
+  },
+  {
+    "name": "EKERÖ",
+    "image": "https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-yellow__0204753_pe359787_s5.jpg?f=xl",
+    "article_number": "702.628.90",
+    "price": "$259.00",
+    "category": "Armchair"
+  },
+  {
+    "name": "SAGSTUA",
+    "image": "https://www.ikea.com/us/en/images/products/sagstua-bed-frame-black-luroey__0662135_pe719104_s5.jpg?f=m",
+    "article_number": "292.688.71",
+    "price": "$249.00",
+    "category": "Bed frame"
+  },
+  {
+    "name": "TARVA",
+    "image": "https://www.ikea.com/us/en/images/products/tarva-bed-frame-pine-luroey__0637611_pe698421_s5.jpg?f=m",
+    "article_number": "290.077.94",
+    "price": "$199.00",
+    "category": "Bed frame"
+  },
+  {
+    "name": "STYRSPEL",
+    "image": "https://www.ikea.com/us/en/images/products/styrspel-gaming-chair-purple-black__1115361_pe872047_s5.jpg?f=xl",
+    "article_number": "605.220.30",
+    "price": "$369.00",
+    "category": "Gaming Chair"
+  },
+  {
+    "name": "LÅNESPELARE",
+    "image": "https://www.ikea.com/us/en/images/products/lanespelare-ring-lamp-with-phone-holder__0971505_pe811368_s5.jpg?f=xl",
+    "article_number": "305.413.57",
+    "price": "$39.99",
+    "category": "Lamp"
+  },
+  {
+    "name": "GAMLEHULT",
+    "image": "https://www.ikea.com/us/en/images/products/gamlehult-ottoman-with-storage-rattan-anthracite__0672903_pe716940_s5.jpg?f=xl",
+    "article_number": "104.343.09",
+    "price": "$94.99",
+    "category": "Ottoman with storage"
+  },
+  {
+    "name": "JÄTTEBO",
+    "image": "https://www.ikea.com/us/en/images/products/jaettebo-chaise-module-left-with-armrest-samsala-dark-yellow-green__1109609_pe870099_s5.jpg?f=xl",
+    "article_number": "794.714.98",
+    "price": "$980.00",
+    "category": "Chaise module"
+  }
+]

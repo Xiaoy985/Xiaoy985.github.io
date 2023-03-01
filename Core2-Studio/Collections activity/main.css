@@ -1,0 +1,33 @@
+@font-face{
+    font-family:ikea;
+    src:url('FatSansRound.ttf');
+}
+
+body{
+    background-color: RGB(0, 88, 171);
+}
+
+h1{
+    color:white;
+    font-family: ikea;
+    text-align: center;
+    font-size: 60px;
+}
+
+table {
+    background: RGB(251, 217, 20);
+    border-radius: 10px;
+    margin: 5% auto;
+}
+
+th, td {
+    color: RGB(0, 88, 171);
+    padding: 20px;
+    text-align: left;
+    font-family: ikea;
+}
+
+img {
+    width: 120px;
+    height: auto;
+}
