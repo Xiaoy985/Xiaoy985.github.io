@@ -9,13 +9,26 @@ let body = document.querySelector("body");
 let buttonBool = false
 
 
-button1.addEventListener("click", newColor);
+button1.addEventListener('click', ()=>{
+   
+    buttonBool = !buttonBool
 
-function newColor() {
-  let randIndex = Math.floor(Math.random() * colors.length);
-  let randColor = colors[randIndex];
-  body.style.bacskgroundColor = randColor;
-}
+    if(buttonBool == true){
+        body.style.backgroundColor = "rgb(122,253,29)"
+       
+    }else{
+       body.style.backgroundColor = "rgb(250,241,15)"
+    
+    }
+})
+
+// button1.addEventListener("click", newColor);
+
+// function newColor() {
+//   let randIndex = Math.floor(Math.random() * colors.length);
+//   let randColor = colors[randIndex];
+//   body.style.bacskgroundColor = randColor;
+// }
 
 // button2.addEventListener("click", ColorSizeChange);
 
