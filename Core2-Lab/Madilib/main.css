@@ -1,0 +1,63 @@
+body{
+        background: linear-gradient(303deg, #5be1be, #dee15b, #f275ed, #75c5f2);
+        background-size: 800% 800%;
+    
+        -webkit-animation: AnimationName 11s ease infinite;
+        -moz-animation: AnimationName 11s ease infinite;
+        animation: AnimationName 11s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 17%}
+        50%{background-position:100% 84%}
+        100%{background-position:0% 17%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 17%}
+        50%{background-position:100% 84%}
+        100%{background-position:0% 17%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 17%}
+        50%{background-position:100% 84%}
+        100%{background-position:0% 17%}
+    }
+
+
+div{
+    margin-top: 20%;
+    text-align: center;
+    text-shadow: #5be1be;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#verbSpan{
+    color: white;
+    font-weight: 600;
+}
+
+#verbSpan:hover{
+    color:#f275ed;
+    background-color: black;
+}
+
+#nounSpan{
+    color: white;
+    font-weight: 600;
+}
+
+#nounSpan:hover{
+    color:#f275ed;
+    background-color: black;
+}
+
+#activityDiv{
+    color: white;
+    font-weight: 600;
+}
+
+#activityDiv:hover{
+    color:#f275ed;
+    background-color: black;
+}
