@@ -1,0 +1,152 @@
+[
+  {
+    "Dim_Sum_name": "Dumplings",
+    "Chinese_name": "饺子",
+    "Price": "$5.50"
+  },
+  {
+    "Dim_Sum_name": "Steamed Buns",
+    "Chinese_name": "包子",
+    "Price": "$3.75"
+  },
+  {
+    "Dim_Sum_name": "Potstickers",
+    "Chinese_name": "锅贴",
+    "Price": "$5.50"
+  },
+  {
+    "Dim_Sum_name": "Man Tou",
+    "Chinese_name": "馒头",
+    "Price": "$3.75"
+  },
+  {
+    "Dim_Sum_name": "Fried Dough Twist",
+    "Chinese_name": "炸咯吱盒",
+    "Price": "$4.50"
+  },
+  {
+    "Dim_Sum_name": "Sesame twists",
+    "Chinese_name": "麻花",
+    "Price": "$4.00"
+  },
+  {
+    "Dim_Sum_name": "Pan-Fried Dumplings",
+    "Chinese_name": "煎饺",
+    "Price": "$6.50"
+  },
+  {
+    "Dim_Sum_name": "Sweet Glutinous Rice Roll",
+    "Chinese_name": "驴打滚",
+    "Price": "$5.00"
+  },
+  {
+    "Dim_Sum_name": "Roast Pancake",
+    "Chinese_name": "烧饼",
+    "Price": "$3.50"
+  },
+  {
+    "Dim_Sum_name": "Pea cake",
+    "Chinese_name": "豌豆黄",
+    "Price": "$4.25"
+  },
+  {
+    "Dim_Sum_name": "Walnut crisp",
+    "Chinese_name": "桃酥",
+    "Price": "$5.50"
+  },
+  {
+    "Dim_Sum_name": "Sugar Ear",
+    "Chinese_name": "糖耳朵",
+    "Price": "$4.50"
+  },
+  {
+    "Dim_Sum_name": "Spring Rolls",
+    "Chinese_name": "春卷",
+    "Price": "$4.50"
+  },
+  {
+    "Dim_Sum_name": "Shumai",
+    "Chinese_name": "烧卖",
+    "Price": "$6.25"
+  },
+  {
+    "Dim_Sum_name": "Har Gow",
+    "Chinese_name": "虾饺",
+    "Price": "$7.50"
+  },
+  {
+    "Dim_Sum_name": "Rice Noodle Rolls",
+    "Chinese_name": "肠粉",
+    "Price": "$5.25"
+  },
+  {
+    "Dim_Sum_name": "Char Siu Bao",
+    "Chinese_name": "叉烧包",
+    "Price": "$3.50"
+  },
+  {
+    "Dim_Sum_name": "Turnip Cake",
+    "Chinese_name": "萝卜糕",
+    "Price": "$5.00"
+  },
+  {
+    "Dim_Sum_name": "Red Bean Bun",
+    "Chinese_name": "豆沙包",
+    "Price": "$4.50"
+  },
+  {
+    "Dim_Sum_name": "Custard Bun",
+    "Chinese_name": "奶黄包",
+    "Price": "$5.00"
+  },
+  {
+    "Dim_Sum_name": "Taro Cake",
+    "Chinese_name": "芋头糕",
+    "Price": "$4.75"
+  },
+  {
+    "Dim_Sum_name": "Ma Lai Go",
+    "Chinese_name": "马拉糕",
+    "Price": "$4.00"
+  },
+  {
+    "Dim_Sum_name": "Mung Bean Cake",
+    "Chinese_name": "绿豆糕",
+    "Price": "$4.50"
+  },
+  {
+    "Dim_Sum_name": "Egg Yolk Pastry",
+    "Chinese_name": "蛋黄酥",
+    "Price": "$5.50"
+  },
+  {
+    "Dim_Sum_name": "Red Rice Roll",
+    "Chinese_name": "红米肠",
+    "Price": "$6.50"
+  },
+  {
+    "Dim_Sum_name": "Soup Dumplings",
+    "Chinese_name": "小笼包",
+    "Price": "$8.00"
+  },
+  {
+    "Dim_Sum_name": "Egg Tarts",
+    "Chinese_name": "蛋挞",
+    "Price": "$4.75"
+  },
+  {
+    "Dim_Sum_name": "Pineapple Bun",
+    "Chinese_name": "菠萝包",
+    "Price": "$4.50"
+  },
+  {
+    "Dim_Sum_name": "Pan-Fried Pork Bun",
+    "Chinese_name": "生煎包",
+    "Price": "$6.75"
+  },
+  {
+    "Dim_Sum_name": "Green Rice Cake",
+    "Chinese_name": "青团",
+    "Price": "$5.00"
+  }
+]

@@ -1,0 +1,18 @@
+h1{
+text-align: center;
+}
+
+.grid {
+    background: lightblue;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+
+}
+
+
+.menu-item {
+
+}
