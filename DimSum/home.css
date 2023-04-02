@@ -1,0 +1,135 @@
+@font-face{
+	font-family:Script;
+	src:url('script.ttf');
+}
+
+@font-face{
+	font-family:Cardo-regular;
+	src:url('cardo/Cardo-Regular.ttf');
+}
+
+.custom-cursor {
+    cursor: url('imgs/'), auto;
+  }
+
+body{
+    background-color: #f7efe8;
+    background-image: url('imgs/background.jpg');
+    background-repeat: repeat; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.title{
+    font-family: Script;
+    color: #5A5151;
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button{
+    background-color: white;
+    color: #5A5151;
+    font-family: Cardo-regular;
+    font-size: 2.5vw;
+    border-width: 0px;
+    border-radius: 20px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;;
+}
+
+.button:hover{
+    background-color: #5A5151;
+    color: white;
+}
+
+.img1{
+    max-width: 450px;
+    position: absolute;
+    top: -200px;
+    left: 45%;
+    object-fit: cover;
+    animation: rotate 5s linear infinite ;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+}
+
+.img2{
+    max-width: 350px;
+    position: absolute;
+    top: -100px;
+    left: 3%;
+    object-fit: cover;
+    animation: resize 2.3s ease-in-out infinite alternate;
+}
+
+@keyframes resize {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+}
+
+.img3{
+    max-width: 350px;
+    position: absolute;
+    top:30%;
+    left: -100px;
+    object-fit: cover;
+    animation: rotate1 6s linear infinite 0.1s;
+}
+
+
+
+.img4{
+    max-width: 400px;
+    position: absolute;
+    top:55%;
+    right: 6%;
+    object-fit: cover;
+    animation: rotate 5.5s linear infinite;
+}
+
+.img5{
+    max-width: 420px;
+    position: absolute;
+    top:55%;
+    left: 10%;
+    object-fit: cover;
+    animation: resize 1.8s ease-in-out infinite alternate;
+}
+
+.img6{
+    max-width: 400px;
+    position: absolute;
+    top:10%;
+    right: -100px;
+    object-fit: cover;
+    animation: resize 2.2s ease-in-out infinite alternate;
+}
+

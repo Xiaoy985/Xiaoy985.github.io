@@ -1,0 +1,303 @@
+[
+  {
+    "image": "imgs/01.jpg",
+    "Chinese_name": "饺子",
+    "Dim_Sum_name": "Dumplings",
+    "Price": "$5.50",
+    "Description": "Dumpling is a traditional Chinese food made of dough wrapped in a half-moon or Yuanbao shape, and can be made into steamed, fried or soup dumplings. Dumplings are a staple food during Chinese New Year, as their shape is similar to that of ancient Chinese gold ingots and symbolizes wealth and prosperity.",
+    "Origin": "Northern China",
+    "recipe": "Pork and/or shrimp filling wrapped in a thin dough wrapper",
+    "Serve_with": "Soy sauce and vinegar dipping sauce"
+  },
+  {
+    "image": "imgs/02.jpg",
+    "Chinese_name": "包子",
+    "Dim_Sum_name": "Steamed Buns",
+    "Price": "$3.75",
+    "Description": "Steamed Buns, originally called steamed buns and also known as cage cakes, are said to have been invented by Zhuge Liang, and then divided from steamed buns in the Qing Dynasty, and are a very filling staple food, a traditional Chinese food and an indispensable food in people's lives.",
+    "Origin": "Northern China",
+    "recipe": "Soft dough filled with savory or sweet fillings",
+    "Serve_with": "None, can be eaten as a standalone snack"
+  },
+  {
+    "image": "imgs/03.jpg",
+    "Chinese_name": "锅贴",
+    "Dim_Sum_name": "Potstickers",
+    "Price": "$5.50",
+    "Description": "Pot stickers, a famous traditional Chinese snack, are fried, cooked and stuffed food. It is exquisitely made and tasty. It is filled with different fresh vegetables according to the season. The shape of pot stickers varies from place to place, usually in the shape of long and thin dumplings, but Tianjin pot stickers are similar to corseted fire.",
+    "Origin": "Northern China",
+    "recipe": "Filled with ground pork, vegetables, and spices, then pan-fried on one side",
+    "Serve_with": "Soy-vinegar dipping sauce"
+  },
+  {
+    "image": "imgs/04.jpg",
+    "Chinese_name": "馒头",
+    "Dim_Sum_name": "Man Tou",
+    "Price": "$3.75",
+    "Description": "Man Tou, one of the traditional Chinese  dishes, is a food made of steamed fermented noodles. Man Tou is made of wheat flour as the main raw material and is one of the daily staple foods of Chinese people. The Man Tou originated from the human head sacrifice in the barbaric era, which is said to have been invented by Zhuge Liang during his conquest of Meng Huo, in the shape of a human head.",
+    "Origin": "Northern China",
+    "recipe": "Soft, fluffy buns made with flour, yeast, and water",
+    "Serve_with": "None, can be eaten as a standalone snack or served with savory dishes"
+  },
+  {
+    "image": "imgs/05.jpg",
+    "Chinese_name": "炸咯吱盒",
+    "Dim_Sum_name": "Zha Ge Zhi He",
+    "Price": "$4.50",
+    "Description": "Zha Ge Zhi He is a type of deep-fried dim sum that originated in Tongzhou, Beijing. It is made by wrapping a filling of ground grains (such as wheat, rice, beans, or corn) and spices in a thin pastry, then deep-frying until crispy and golden. The filling can be made with various ingredients, but the most traditional version is made with mung bean. It is a versatile dish that can be served as a snack, in soups or stir-fries.",
+    "Origin": "Northern China",
+    "recipe": "Ground grains, spices, pastry, oil",
+    "Serve_with": "None"
+  },
+  {
+    "image": "imgs/06.jpg",
+    "Chinese_name": "麻花",
+    "Dim_Sum_name": "Sesame twists",
+    "Price": "$4.00",
+    "Description": "Sesame twists, or \"ma hua\" in Mandarin, are a sweet and crunchy dim sum dish that's made by twisting strips of dough and then deep-frying them until golden brown. Once they're cooked, they're coated in sugar or honey and sesame seeds.",
+    "Origin": "Northern China",
+    "recipe": "Twisted strips of dough deep-fried until golden brown and coated in sugar or honey and sesame seeds",
+    "Serve_with": "None"
+  },
+  {
+    "image": "imgs/07.jpg",
+    "Chinese_name": "煎饺",
+    "Dim_Sum_name": "Pan-Fried Dumplings",
+    "Price": "$6.50",
+    "Description": "Pan-fried dumplings are one of the characteristic traditional snacks in northern China. They are made of flour and meat filling as the main ingredients of dumplings, which are then cooled and fried in oil. Pan-fried dumplings have a crispy yellow surface and crispy taste. Dish Features Easy to make, with a crispy yellow surface and crispy taste.",
+    "Origin": "Northern China",
+    "recipe": "Filled with a savory mixture of ground pork, chives, and cabbage, then pan-fried and steamed",
+    "Serve_with": "Soy-vinegar dipping sauce"
+  },
+  {
+      "image": "imgs/08.jpg",
+      "Chinese_name": "驴打滚",
+      "Dim_Sum_name": "Sweet Glutinous Rice Roll",
+      "Price": "$5.00",
+      "Description": "Sweet Glutinous Rice Roll is one of the traditional snacks in Northeast China, old Beijing and Tianjin. It is named \"Donkey Roll\" because the soybean powder sprinkled on the final process is like the yellow soil raised by the wild donkeys rolling around in the old Beijing countryside.",
+      "Origin": "Northern China",
+      "recipe": "Glutinous rice flour, sweet red bean paste, and sesame seeds rolled and steamed until tender",
+      "Serve_with": "None, can be eaten as a standalone dessert or snack"
+  },
+  {
+      "image": "imgs/09.jpg",
+      "Chinese_name": "烧饼",
+      "Dim_Sum_name": "Roast Pancake",
+      "Price": "$3.50",
+      "Description": "Roast pancake, or \"shao bing\" in Mandarin, is a popular dim sum dish that's often eaten for breakfast or as a snack. The Roast pancake is made with wheat flour, water, and salt, and is usually filled with meat, scallions, and other vegetables. It's then baked in a clay oven until crispy and golden brown.",
+      "Origin": "Northern China",
+      "recipe": "Pancake made with wheat flour, water, and salt, filled with meat, scallions, and other vegetables, then baked until crispy",
+      "Serve_with": "Soy sauce or other condiments"
+  },
+  {
+      "image": "imgs/10.jpg",
+      "Chinese_name": "豌豆黄",
+      "Dim_Sum_name": "Pea cake",
+      "Price": "$4.25",
+      "Description": "Pea cake, also known as \"Wandou Huang\" in Chinese. This dim sum dish is a sweet and chewy cake made from yellow split peas and glutinous rice flour. It is typically steamed and has a bright yellow color from the peas.",
+      "Origin": "Northern China",
+      "recipe": "Pea cake made with yellow split peas, glutinous rice flour, sugar, and water.",
+      "Serve_with": "None, it is typically eaten on its own as a sweet snack."
+  },
+  {
+      "image": "imgs/11.jpg",
+      "Chinese_name": "桃酥",
+      "Dim_Sum_name": "Walnut crisp",
+      "Price": "$5.50",
+      "Description": "Walnut crisp originated in Jiangxi. It is a traditional Han Chinese snack that is suitable for both the north and the south. It is famous for its dry, crispy, crunchy and sweet characteristics, and its main ingredients are flour, eggs and shortening.",
+      "Origin": "Northern China",
+      "recipe": "Made with walnuts, flour, butter, and sugar.",
+      "Serve_with": "None, can be eaten as a standalone dessert or snack"
+  },
+  {
+      "image": "imgs/12.jpg",
+      "Chinese_name": "糖耳朵",
+      "Dim_Sum_name": "Sugar Ear",
+      "Price": "$4.50",
+      "Description": "Sugar Ear is a type of fried dough twisted into the shape of an ear and coated in sugar. They are crispy on the outside and soft on the inside.",
+      "Origin": "Northern China",
+      "recipe": "Glutinous rice flour, sugar, and water",
+      "Serve_with": "Sugar coating"
+  },
+  {
+      "image": "imgs/13.jpg",
+      "Chinese_name": "春卷",
+      "Dim_Sum_name": "Spring Rolls",
+      "Price": "$4.50",
+      "Description": "It is a traditional food of Chinese folk festivals, popular in all parts of China, especially in Jiangnan and other places. In southern China, the Spring Festival does not eat dumplings, eat spring rolls and sesame dumplings. And in Zhangzhou around the Qingming Festival also eat spring rolls, folk in addition to their own home for consumption, often used for guests. Spring rolls have a long history, evolved from the ancient spring cake.",
+      "Origin": "Guangdong, China",
+      "recipe": "Crispy, thin dough wrapper filled with vegetables, meat, or seafood",
+      "Serve_with": "Sweet and sour dipping sauce"
+  },
+  {
+      "image": "imgs/14.jpg",
+      "Chinese_name": "烧卖",
+      "Dim_Sum_name": "Shumai",
+      "Price": "$6.25",
+      "Description": "Shumai are small, a kind of snack with hot side as the skin wrapped in filling and steamed in a cage. It is shaped like a pomegranate, white and crystal, filled with thin skin, fragrant and delicious. They are a popular Cantonese dim sum dish often served in bamboo steamers.",
+      "Origin": "Guangdong, China",
+      "recipe": "Thin wheat wrapper filled with ground pork, shrimp, and mushrooms",
+      "Serve_with": "Soy sauce and/or chili oil dipping sauce"
+  },
+  {
+      "image": "imgs/15.jpg",
+      "Chinese_name": "虾饺",
+      "Dim_Sum_name": "Har Gow",
+      "Price": "$7.50",
+      "Description": "Har Gow is a traditional dish of Guangdong Province. The Har Gow skin is soft, white, crystal clear, soft, tough and cool, the filling inside the dumpling is faintly visible; the filling is delicious, exquisite and exquisite form, fresh and fragrant taste, known as the three best by the provincial counterparts.",
+      "Origin": "Guangdong, China",
+      "recipe": "Shrimp and bamboo shoot filling wrapped in a thin, translucent dough wrapper",
+      "Serve_with": "Soy sauce and/or chili oil dipping sauce"
+  },
+  {
+      "image": "imgs/16.jpg",
+      "Chinese_name": "肠粉",
+      "Dim_Sum_name": "Rice Noodle Rolls",
+      "Price": "$5.25",
+      "Description": "Rice Noodle Rolls, a traditional snack originating from Xiguan, Guangzhou. As early as the end of the Qing Dynasty, the hawking of Rice Noodle Rolls was heard on the streets of Guangzhou. In those days, there were two kinds of tastes, salty and sweet. The filling of salty rolls mainly consisted of pork, beef, shrimp and pork liver. The sweet roll were filled with sugar-soaked fruits and vegetables, and mixed with fried sesame seeds.",
+      "Origin": "Guangdong, China",
+      "recipe": "Paper-thin sheets of rice noodle filled with shrimp, beef, or pork",
+      "Serve_with": "Soy sauce and sesame oil"
+  },
+  {
+      "image": "imgs/17.jpg",
+      "Chinese_name": "叉烧包",
+      "Dim_Sum_name": "Char Siu Buns",
+      "Price": "$3.50",
+      "Description": "Char siu buns, also known as barbecue pork buns, are a popular Cantonese dim sum dish made of soft, fluffy buns filled with sweet and savory char siu (barbecue pork). They are steamed until soft and fluffy.",
+      "Origin": "Guangdong, China",
+      "recipe": "Soft, fluffy bun filled with sweet and savory char siu (barbecue pork)",
+      "Serve_with": "None, can be eaten as a standalone snack"
+  },
+  {
+      "image": "imgs/18.jpg",
+      "Chinese_name": "萝卜糕",
+      "Dim_Sum_name": "Turnip Cake",
+      "Price": "$5.00",
+      "Description": "Turnip cake is a savory dim sum dish made of grated turnip, rice flour, and Chinese sausage. The mixture is steamed until firm, then sliced and pan-fried until crispy on the outside and soft on the inside. This pastry can be eaten in a variety of ways and is available in large and small cities in China, and is inexpensive, delicious and nutritious.",
+      "Origin": "Guangdong, China",
+      "recipe": "Grated turnip, rice flour, and Chinese sausage steamed until firm and then sliced and pan-fried",
+      "Serve_with": "Soy sauce or oyster sauce"
+  },
+  {
+      "image": "imgs/19.jpg",
+      "Chinese_name": "豆沙包",
+      "Dim_Sum_name": "Red Bean Buns",
+      "Price": "$4.50",
+      "Description": "Red bean buns are a sweet Cantonese pastry filled with sweetened red bean paste. The buns are steamed until soft and fluffy, and they are a popular dessert in Chinese cuisine.",
+      "Origin": "Guangdong, China",
+      "recipe": "Soft, fluffy buns filled with sweetened red bean paste",
+      "Serve_with": "None, can be eaten as a standalone dessert"
+  },
+  {
+      "image": "imgs/20.jpg",
+      "Chinese_name": "奶黄包",
+      "Dim_Sum_name": "Custard Buns",
+      "Price": "$5.00",
+      "Description": "Custard has a rich milk and egg yolk flavor, and is a kind of local traditional famous dessert in Guangdong Province, which belongs to Canton style. Cantonese people have the habit of drinking morning tea and will order a cage when drinking morning tea.",
+      "Origin": "Guangdong, China",
+      "recipe": "Soft, fluffy buns filled with sweet and creamy cust",
+      "Serve_with": ""
+  },
+  {
+      "image": "imgs/21.jpg",
+      "Chinese_name": "芋头糕",
+      "Dim_Sum_name": "Taro Cake",
+      "Price": "$4.75",
+      "Description": "Taro cake is a savory dim sum dish made of mashed taro, rice flour, and various meats or mushrooms. The mixture is steamed until firm, then sliced and pan-fried until crispy on the outside and soft on the inside.",
+      "Origin": "Guangdong, China",
+      "recipe": "Mashed taro, rice flour, and various meats or mushrooms steamed until firm and then sliced and pan-fried",
+      "Serve_with": "Soy sauce or oyster sauce"
+  },
+  {
+      "image": "imgs/22.jpg",
+      "Chinese_name": "马拉糕",
+      "Dim_Sum_name": "Ma Lai Go",
+      "Price": "$4.00",
+      "Description": "Ma Lai Go is a Cantonese sponge cake made with flour, sugar, eggs, and evaporated milk. The cake is steamed until fluffy and light, and it has a slightly sweet and caramelized flavor. It is often served as a breakfast or tea-time snack.",
+      "Origin": "Guangdong, China",
+      "recipe": "Ma Lai Go made with flour, sugar, eggs, and evaporated milk steamed until fluffy and light",
+      "Serve_with": "None, can be eaten as a standalone snack or served with tea"
+  },
+  {
+      "image": "imgs/23.jpg",
+      "Chinese_name": "绿豆糕",
+      "Dim_Sum_name": "Mung Bean Cake",
+      "Price": "$4.50",
+      "Description": "Mung bean cake is one of the traditional specialties of pastries and is a summer snack. According to ancient Chinese ancestors, in search of peace and health, the Dragon Boat Festival will eat zongzi, Xionghuang wine, green bean cake, salted duck eggs these foods.",
+      "Origin": "Guangdong, China",
+      "recipe": "Sweet pastry made with green bean flour, sugar, and water steamed until firm",
+      "Serve_with": "None, can be eaten as a standalone dessert or snack"
+  },
+  {
+      "image": "imgs/24.jpg",
+      "Chinese_name": "蛋黄酥",
+      "Dim_Sum_name": "Egg Yolk Pastry",
+      "Price": "$5.50",
+      "Description": "Egg yolk pastry is a traditional Chinese pastry made of wheat, butter and egg yolk. In recent years, with the upgrading of ingredients, egg yolk pastry has gradually become an internet sensation.",
+      "Origin": "Guangdong, China",
+      "recipe": "Flaky pastry shell with a filling of salted egg yolk and sugar, baked until crispy",
+      "Serve_with": "None"
+  },
+  {
+      "image": "imgs/25.jpg",
+      "Chinese_name": "红米肠",
+      "Dim_Sum_name": "Red Rice Roll",
+      "Price": "$6.50",
+      "Description": "Red rice roll is made with sticky rice flour, tapioca starch, red currant flour, shrimp, bread crumbs and water. Red rice roll is a type of Cantonese morning tea. The shrimp is covered with a layer of flour fried crispy, and then wrapped with a soft and chewy red rice intestine skin, a bite, the exterior dense middle crispy inside fresh and tender, triple taste filled taste buds.",
+      "Origin": "Guangdong, China",
+      "recipe": "Glutinous rice, pork, and red yeast rice stuffed into a sausage casing, then steamed",
+      "Serve_with": "None"
+  },
+  {
+      "image": "imgs/26.jpg",
+      "Chinese_name": "小笼包",
+      "Dim_Sum_name": "Soup Buns",
+      "Price": "$8.00",
+      "Description": "Soup buns, also known as xiao long bao, are a steamed dumpling filled with pork or other ingredients and a small amount of soup. When you bite into them, the soup bursts out and mixes with the filling for a delicious explosion of flavor.",
+      "Origin": "Shanghai, China",
+      "recipe": "Thin, delicate wrapper filled with pork or other ingredients and soup",
+      "Serve_with": "Soy sauce and vinegar dipping sauce"
+  },
+  {
+      "image": "imgs/27.jpg",
+      "Chinese_name": "生煎包",
+      "Dim_Sum_name": "Pan-Fried Pork Buns",
+      "Price": "$6.75",
+      "Description": "Sheng Jian Bao, also known as pan-fried pork buns, are a Shanghai specialty made of dough filled with pork and soup that are pan-fried until crispy on the bottom and steamed on top. They are often served with black vinegar and shredded ginger.",
+      "Origin": "Shanghai, China",
+      "recipe": "Dough filled with pork and soup that are pan-fried until crispy on the bottom and steamed on top",
+      "Serve_with": "Black vinegar and shredded ginger"
+  },
+  {
+      "image": "imgs/28.jpg",
+      "Chinese_name": "青团",
+      "Dim_Sum_name": "Green Rice Cake",
+      "Price": "$5.00",
+      "Description": "Green Rice Cake is a traditional snack in the Jiangnan region, a traditional snack eaten by people in Jiangnan during the Qingming Festival. The juice of mugwort is mixed into glutinous rice flour and then wrapped into bean paste filling or lotus seed paste, which is not sweet but not greasy and has a light but long fragrance.",
+      "Origin": "Southern China",
+      "recipe": "Glutinous rice flour filled with sweet red bean paste, rolled in mugwort powder",
+      "Serve_with": "Sesame seeds"
+  },
+  {
+      "image": "imgs/29.jpg",
+      "Chinese_name": "蛋挞",
+      "Dim_Sum_name": "Egg Tarts",
+      "Price": "$4.75",
+      "Description": "Egg tarts are a popular Cantonese dessert made of flaky pastry crusts filled with a sweet, creamy egg custard. They are baked until golden brown and served warm.",
+      "Origin": "Macau, China",
+      "recipe": "Flaky pastry crust filled with a sweet, creamy egg custard",
+      "Serve_with": "None, can be eaten as a standalone dessert"
+  },
+  {
+      "image": "imgs/30.jpg",
+      "Chinese_name": "菠萝包",
+      "Dim_Sum_name": "Pineapple Buns",
+      "Price": "$4.50",
+      "Description": "Pineapple buns are a sweet Cantonese pastry that have a crispy, cookie-like exterior and a soft, sweet interior. The buns are often topped with a sugary, crumbly topping that resembles the texture of a pineapple. They are a popular snack in Hong Kong and are often served with tea.",
+      "Origin": "Hong Kong, China",
+      "recipe": "Sweet, soft bun with a crispy, cookie-like exterior topped with sugary, crumbly topping",
+      "Serve_with": "None, can be eaten as a standalone snack or served with tea"
+  }
+  ]
+

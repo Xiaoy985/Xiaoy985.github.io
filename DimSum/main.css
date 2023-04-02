@@ -1,0 +1,305 @@
+@font-face{
+	font-family:Cardo-regular;
+	src:url('cardo/Cardo-Regular.ttf');
+}
+
+@font-face{
+	font-family:Cardo-bold;
+	src:url('cardo/Cardo-Bold.ttf');
+}
+
+@font-face{
+	font-family:Kaiti;
+	src:url('kaiti.ttf');
+}
+
+@font-face{
+	font-family:Script;
+	src:url('script.ttf');
+}
+
+body{
+    background-color: #f7efe8;
+    background-image: url('imgs/background.jpg');
+    background-repeat: repeat; 
+}
+
+a{
+    text-decoration: none;
+    color: #5A5151;
+}
+
+.cart-summary-container {
+    font-family:Script;
+    color: #5A5151;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-duration: 0.3s;
+}
+
+.cart-summary-image {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+.cart-summary-image:hover{
+    width: 50px;
+    height: 50px;
+}
+  
+#cart-summary {
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    margin-top: 2px;
+}
+  
+
+label[for="search-input"] {
+    display: inline-block;
+    margin: 10px 0 5px 10%;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    color: white;
+    font-family: Cardo-regular;
+}
+  
+#search-input {
+    display: inline-block;
+    width: 30%;
+    height: 25px;
+    margin: 0 0 20px 10%;
+    font-size: 1rem;
+    font-family: Cardo-regular;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1.5px solid #5a5151;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+#search-input::placeholder {
+    color:  #5a5151;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #5a5151;
+    box-shadow: 0 0 2px #5a5151;
+    background-color:#5a5151;
+}
+  
+label {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    font-size: 1.5rem;
+    color: #5A5151;
+    font-family: Cardo-regular;
+}
+  
+select {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: Cardo-regular;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color:white;
+    color:#5A5151;
+    margin-bottom: 1rem;
+    transition: 0.5s;
+    text-align: right;
+}
+  
+select:hover, select:focus {
+    outline: none;
+    border-color: #5a5151;
+    box-shadow: 0 0 5px #5a5151;
+}
+  
+h1{
+    margin-bottom: 5px;
+    margin-left: 10%;
+    font-family: Script;
+    font-size: 1.8vw;
+    color: #5A5151;
+}
+
+h2{
+    text-align: center;
+    font-family: Cardo-regular;
+    font-size: 3.5vw;
+    color: #5A5151;
+    margin: 0;
+}
+
+.container {
+    width: 80%; /* Set the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+  
+.thin-line {
+    border-top: 1.5px solid #5A5151; /* Set the style of the thin line */
+}
+
+.thick-line {
+    border-top: 2.5px solid #5A5151; /* Set the style of the thick line */
+}
+  
+.grid {
+    color: #5A5151;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.menu-item > div {
+    transition: transform 0.8s;
+}
+
+.menu-item img {
+    max-width: 270px;
+    transition: ease-in-out 0.3s;
+}
+
+.menu-item img:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-out;
+}
+
+.menu-item div:nth-child(2) {
+    font-family:kaiti;
+    font-size: 1.5vw;
+}
+
+.menu-item div:nth-child(3) {
+    font-family:Script;
+    font-size: 2vw;
+}
+
+.menu-item div:nth-child(4) {
+    font-family:Script;
+    font-size: 1.5vw;
+    color:rosybrown;
+    margin-bottom: 20px;
+}
+
+.menu-item button {
+    background-color: white;
+    border: none;
+    color: #5A5151;
+    border-radius: 30%;
+    font-size: 1.2vw;
+    margin-bottom: 20px;
+}
+
+.menu-item button:hover {
+    background-color:#5A5151;
+    color: white;
+    transform: scale(1.2);
+}
+
+.menu-item button:active {
+    transform: scale(0.9); 
+    opacity: 0.8; 
+}
+
+  
+/* .back {
+    pointer-events: none;
+    font-family:Cardo;
+    display: none; 
+    font-size: 1.1vw;
+    color:#5A5151;
+}
+
+.back div:nth-child(2){
+    margin-top: 8px;
+    font-family:Cardo;
+    font-size: 1.1vw;
+    color:#5A5151;
+}
+
+.back div:nth-child(3){
+    margin-top: 8px;
+    font-family:Cardo;
+    font-size: 1.1vw;
+    color:#5A5151;
+}
+.back div:nth-child(4){
+    margin-top: 8px;
+    font-family:Cardo;
+    font-size: 1.1vw;
+    color:#5A5151;
+} */
+
+.title {
+font-family: Cardo-bold;
+
+}
+
+.popup {
+    font-family:Cardo-regular;
+    color:#5A5151;
+    font-size: 1.5vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 50%;
+    overflow: auto;
+    border-radius: 50px;
+}
+ 
+.close-btn {
+    position: fixed;
+    top: 15%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+}
+  
+.close-btn:hover {
+    font-size: 60px;
+}
+  
+.close-btn:before {
+    content: " x ";
+}
+
+.credit{
+    margin-top: 30px;
+    margin-left: 45%;
+    color: #5A5151;
+    font-family:Kaiti;
+}
