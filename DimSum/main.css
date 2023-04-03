@@ -29,6 +29,10 @@ a{
     color: #5A5151;
 }
 
+a :hover{
+    cursor:pointer;
+}
+
 .cart-summary-container {
     font-family:Script;
     color: #5A5151;
@@ -105,7 +109,7 @@ label {
     color: #5A5151;
     font-family: Cardo-regular;
 }
-  
+
 select {
     display: inline-block;
     font-size: 1rem;
@@ -125,7 +129,7 @@ select:hover, select:focus {
     border-color: #5a5151;
     box-shadow: 0 0 5px #5a5151;
 }
-  
+
 h1{
     margin-bottom: 5px;
     margin-left: 10%;
@@ -163,6 +167,7 @@ h2{
     grid-template-columns: repeat(3, 1fr);
 }
 
+
 .menu-item > div {
     transition: transform 0.8s;
 }
@@ -173,7 +178,7 @@ h2{
 }
 
 .menu-item img:hover {
-    cursor:pointer;
+    cursor: url('imgs/takeabite.png'), auto;
     transform: scale(1.1);
     transition: transform 0.3s ease-out;
 }

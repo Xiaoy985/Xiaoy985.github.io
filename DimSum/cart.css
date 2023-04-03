@@ -1,0 +1,144 @@
+body{
+    background-color: #f7efe8;
+    background-image: url('imgs/background.jpg');
+    background-repeat: repeat; 
+}
+
+#table-container {
+    position: relative;
+    top: 55%;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+#falling-items-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+  
+.falling-item {
+    position: absolute;
+    top: -50px;
+    animation: fall 1s linear;
+    animation-timing-function: ease-in-out;
+    max-width: 230px;
+}
+  
+@keyframes fall {
+    0% {
+      transform: translate(0, -500px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+}
+  
+#table-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    text-align: center;
+    z-index: 0;
+}
+  
+#table-container img {
+    max-width: 90%;
+}
+  
+
+
+#quote1 img,
+#quote2 img,
+#quote3 img,
+#quote4 img,
+#quote5 img,
+#quote6 img,
+#quote7 img,
+#quote8 img {
+    z-index: 50;
+    animation: fadeInOut 8s infinite;
+    opacity: 0;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#quote1 img{
+    position: absolute;
+    max-width: 20%;
+    top: 10%;
+    left: 2%;
+    animation-delay: 6.5s;
+}
+
+#quote2 img{
+    position: absolute;
+    max-width: 15%;
+    top: 5%;
+    left: 85%;
+    animation-delay: 3.5s;
+}
+
+#quote3 img{
+    position: absolute;
+    max-width: 20%;
+    top: 60%;
+    left: 75%;
+    animation-delay: 5.5s;
+}
+
+#quote4 img{
+    position: absolute;
+    max-width: 20%;
+    top: 45%;
+    left: 3%;
+    animation-delay: 4.5s;
+}
+
+#quote5 img{
+    position: absolute;
+    max-width: 20%;
+    top: 75%;
+    left: 50%;
+    animation-delay: 5s;
+}
+
+#quote6 img{
+    position: absolute;
+    max-width: 20%;
+    top: 0%;
+    left: 55%;
+    animation-delay: 6s;
+}
+
+#quote7 img{
+    position: absolute;
+    max-width: 15%;
+    top: 8%;
+    left: 30%;
+    animation-delay: 4s;
+}
+
+#quote8 img{
+    position: absolute;
+    max-width: 20%;
+    top: 70%;
+    left: 15%;
+    animation-delay: 7s;
+}
+
