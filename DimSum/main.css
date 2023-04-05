@@ -273,11 +273,10 @@ font-family: Cardo-bold;
 .popup-content {
     background-color: white;
     padding: 45px;
-    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     max-width: 50%;
     overflow: auto;
-    border-radius: 50px;
+    border-radius: 15px;
 }
  
 .close-btn {
