@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+  
+
+  <a href="cart.html">
+  <div class="cart-summary-container">
+    <img src="imgs/cart.png" class="cart-summary-image">
+    <span>Cart(<span id="cart-summary">0</span>)</span>
+  </div>
+  </a>
+
+    <h1><a href="index.html">DimSum House</a></h1>
+  </a>
+
+  <h2>Menu</h2>
+
+  <div class="container">
+    <hr class="thin-line">
+    <hr class="thick-line">
+  </div>
+
+    <grid>
+      <label for="search-input" style="display: none;">Search:</label>
+      <input type="text" id="search-input" placeholder="Find a dish!">
+
+      <label for="origin-filter">Origin:</label>
+        <select id="origin-filter">
+          <option value="">All </option>
+          <option value="Northern China">Northern China</option>
+          <option value="Southern China">Southern China</option>
+        </select>
+
+      <div id="data-output" class="grid">
+         <!-- Products from javascript file in here. -->
+       
+      </div>
+    </grid>
+
+   
+
+  <div class="credit">Illustration: @莓有烦恼 </div>
+
+  <script src="main.js"></script>
+  </body>
+</html>
