@@ -1,0 +1,372 @@
+[
+  {
+    "Year": 2022,
+    "Title": "Fat Boy",
+    "Artist": "Leonard Ursachi",
+    "SiteLocation": "Intersection of York Street and Pearl Street",
+    "Borough": "Brooklyn",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Fatboy.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Babel",
+    "Artist": "Josephn Morris",
+    "SiteLocation": "Manhattan Bridge Anchorage",
+    "Borough": "Brooklyn",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Babel.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Ganymede with Jupiter's Eagle",
+    "Artist": "Adam Parker Smith",
+    "SiteLocation": "Ruth Wittenberg Triangle, 6th Avenue between W 8th Street and W 9th Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Ganymede-with Jupiter's-Eagle.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Dancer",
+    "Artist": "Tomokazu Matsuyama",
+    "SiteLocation": "Flatiron Plaza South, Broadway between 22nd Street and 23rd Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Dancer.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Barrier Beautification 2022",
+    "Artist": "Alexis Gallo",
+    "SiteLocation": "20th Street between 7th Avenue and 10th Avenue and 10th Avenue between 19th Street and 20th Street",
+    "Borough": "Brooklyn",
+    "ProjectType": "Mural",
+    "Image": "imgs/Barrier-Beautification 2022-Alexis-Gallo.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "I am a Stranger and I am Moving",
+    "Artist": "Rodrigo Hernandez",
+    "SiteLocation": "Astor Place Plaza North at East 8th Street between 4th Avenue and Lafayette Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Vinyl",
+    "Image": "imgs/I-am-a-Stranger-and-I am-Moving.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Bit, Bridle & Reins",
+    "Artist": "Steed Taylor",
+    "SiteLocation": "Concrete barriers along the 7th Avenue corridor between 34th Street and 42nd Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Vinyl",
+    "Image": "imgs/Bit-Bridle-Reins.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Hippo Ballerina, Hippo Ballerina Pirouette & Harlequin Pirouette",
+    "Artist": "Bjorn Skaarup",
+    "SiteLocation": "Pedestrian plaza at Pershing Square West at Park Avenue between E 41st Street and E 42 Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Hippo-Ballerina.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Toro de Oro",
+    "Artist": "Enrique Cabrera",
+    "SiteLocation": "Pedestrian plaza along 9th Avenue between W 13th Street and Gansevoort Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Toro-de-Oro-Promo.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Here",
+    "Artist": "Santi Flores",
+    "SiteLocation": "Garment District Plazas along Broadway between 37th Street and 41th Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Here.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Faces of the Wild",
+    "Artist": "Gillie & Marc",
+    "SiteLocation": "Ruth E. Wittenberg Triangle on 6th Avenue between W 8th Street and W 9th Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Faces-of-the-Wild.jpg",
+    "": ""
+  },
+  {
+    "Year": 2022,
+    "Title": "Sphinx",
+    "Artist": "Fernando Botero",
+    "SiteLocation": "9th Avenue between W 14th Street and W 13th Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Sphinx.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Murals for the Movement",
+    "Artist": "Cey Adams",
+    "SiteLocation": "Intersection of Prospect Street and Adams Street",
+    "Borough": "Brooklyn",
+    "ProjectType": "Mural",
+    "Image": "imgs/Murals-for-the-Movement-Cey-Adams.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Murals for the Movement",
+    "Artist": "Victor Quinonez",
+    "SiteLocation": "Gold Street and Sands Street",
+    "Borough": "Brooklyn",
+    "ProjectType": "Mural",
+    "Image": "imgs/Murals-for-the-Movement-Victor-Quinonez.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Beacon",
+    "Artist": "Beam Center Collective",
+    "SiteLocation": "Albee Square, Fulton Street between Bond Street and Albee Square West",
+    "Borough": "Brooklyn",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Beacon.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Mundillo/Little World",
+    "Artist": "Samantha Holmes",
+    "SiteLocation": "Intersection of W 97th Street and Amsterdam Avenue",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Mundillo.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Transformations",
+    "Artist": "Hacer",
+    "SiteLocation": "Broadway between 37th Street and 39th Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Transformations.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Social Block",
+    "Artist": "Joshua Callaghan",
+    "SiteLocation": "Flatiron Plaza South, Broadway between 22nd Street and 23rd Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Social-Block.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Carpet Collage",
+    "Artist": "Cara Lynch",
+    "SiteLocation": "Vanderbilt Avenue between Dean Street and Bergen Street",
+    "Borough": "Brooklyn",
+    "ProjectType": "Mural",
+    "Image": "imgs/Carpet-Collage.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Collective Vision",
+    "Artist": "Gera Lozano (GERALUZ)",
+    "SiteLocation": "14th Street between Union Square West/University Place and Union Square East/4th Avenue",
+    "Borough": "Manhattan",
+    "ProjectType": "Mural",
+    "Image": "imgs/Collective-Vision.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Magic Hour",
+    "Artist": "Steed Taylor",
+    "SiteLocation": "Broadway between 39th Street and 40th Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Mural",
+    "Image": "imgs/Magic-Hour.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Hidden Heroes: Kensington",
+    "Artist": "Anna and Jordan Rathkopf",
+    "SiteLocation": "Avenue C Plaza, Avenue C and MacDonald Avenue",
+    "Borough": "Brooklyn",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Hidden-Heroes.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Skywave",
+    "Artist": "Julia Sinelnikova",
+    "SiteLocation": "Broadway Junction, Intersection of Fulton Street and Van Sinderen Avenue",
+    "Borough": "Brooklyn",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Skywave.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Rice Terraces",
+    "Artist": "Dasic Fernandez",
+    "SiteLocation": "Doyers Street between Pell Street and Bowery",
+    "Borough": "Manhattan",
+    "ProjectType": "Mural",
+    "Image": "imgs/Rice-Terraces.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Caribbean Breeze",
+    "Artist": "Marie Saint-Cyr",
+    "SiteLocation": "Columbia Street between Atlantic Avenue and Congress Street",
+    "Borough": "Brooklyn",
+    "ProjectType": "Mural",
+    "Image": "imgs/Caribbean-Breeze.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Spectrum",
+    "Artist": "Kim Carlino",
+    "SiteLocation": "7th Avenue between 34th Street and 42nd Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Mural",
+    "Image": "imgs/Spectrum.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "I Still Believe in This City",
+    "Artist": "Amanda Phingbodhipakkiya",
+    "SiteLocation": "Water Street between Wall Street and Pearl Street and Gouverneur Lane between Water Street and Front Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Vinyl",
+    "Image": "imgs/I-Still-Believe-in-This-City.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Timing, Inner Dialogue & Listen",
+    "Artist": "Jim Rennert",
+    "SiteLocation": "Pershing Square Plaza West on Park Avenue between E 41st Street and E 42nd Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Timing-Inner-Dialogue-Listen.jpg",
+    "": ""
+  },
+  {
+    "Year": 2021,
+    "Title": "Prismatica",
+    "Artist": "RAW Design",
+    "SiteLocation": "Broadway between 39th Street and 40th Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Prismatica.jpg",
+    "": ""
+  },
+  {
+    "Year": 2020,
+    "Title": "Bombora House",
+    "Artist": "Tom Fruin",
+    "SiteLocation": "Gansevoort Plaza, Gansevoort Street and Ninth Avenuve",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Bombora-House.jpg",
+    "": ""
+  },
+  {
+    "Year": 2020,
+    "Title": "Point of Action",
+    "Artist": "Studio Cook John",
+    "SiteLocation": "Flatiron North and South Plazas, Broadway between 22nd Street and 24th Street",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Point-of-Action.jpg",
+    "": ""
+  },
+  {
+    "Year": 2020,
+    "Title": "Oranges from Durazzano, Italy",
+    "Artist": "Zara Stasi",
+    "SiteLocation": "Shore Parkway between Bay Parkway and W 22nd Street",
+    "Borough": "Brooklyn",
+    "ProjectType": "Mural",
+    "Image": "imgs/Oranges-from-Durazzano.jpg",
+    "": ""
+  },
+  {
+    "Year": 2020,
+    "Title": "Sonic Constellation",
+    "Artist": "Camila Morales and Dominka Ksel",
+    "SiteLocation": "Rockaway Freeway between Beach 60th Street and Beach 61st Street",
+    "Borough": "Queens",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Sonic-Constellation.jpg",
+    "": ""
+  },
+  {
+    "Year": 2020,
+    "Title": "Impulse",
+    "Artist": "Lateral Office and CS Design",
+    "SiteLocation": "Garment District Plaza, Broadway, 37th- 38th Streets- Seasonal Street Closure",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Impulse.jpg",
+    "": ""
+  },
+  {
+    "Year": 2020,
+    "Title": "Doggy Bags",
+    "Artist": "Will Kurtz",
+    "SiteLocation": "Garment District Plazas, Broadway, 37th-38th, 38th-39th, 40th-41st Streets",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Doggy-Bags.jpg",
+    "": ""
+  },
+  {
+    "Year": 2020,
+    "Title": "Migration",
+    "Artist": "Madjeen Isaac",
+    "SiteLocation": "Caton Avenue between Ocean Avenue and St. Paul’s Place",
+    "Borough": "Brooklyn",
+    "ProjectType": "Mural",
+    "Image": "imgs/Migration.jpg",
+    "": ""
+  },
+  {
+    "Year": 2020,
+    "Title": "Boulevard of African Monarchs",
+    "Artist": "Kenseth Armstead",
+    "SiteLocation": "116th Street and Adam Clayton Powell Blvd/St. Nicholas Avenue",
+    "Borough": "Manhattan",
+    "ProjectType": "Sculpture",
+    "Image": "imgs/Boulevard-of-African-Monarchs.jpg",
+    "": ""
+  }
+]

@@ -1,0 +1,208 @@
+@font-face{
+	font-family:CormorantUpright-regular;
+	src:url('Cormorant/CormorantUpright-Regular.ttf');
+}
+
+@font-face{
+	font-family:CormorantUpright-SemiBold;
+	src:url('Cormorant/CormorantUpright-SemiBold.ttf');
+}
+
+@font-face{
+    font-family:Cormorant-Regular;
+    src:url('Cormorant/Cormorant-Regular.ttf');
+}
+
+@font-face{
+    font-family:Cormorant-Bold;
+    src:url('Cormorant/Cormorant-Bold.ttf');
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: exclusion;
+    transition: transform 0.1s ease-out;
+}
+
+.logo {
+    font-family: CormorantUpright-SemiBold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 180px;
+    animation: movedown 1s ease-in-out;
+}
+
+@keyframes movedown {
+    from {
+    opacity: 0;
+    transform: translateY(-100%);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: none;
+}
+
+
+.content {
+    display: flex;
+    white-space: nowrap;    
+    overflow-x: auto;
+    margin-top: 50px;
+    height: 420px;
+    margin-left: 20px;
+    align-items: flex-end;
+    position: relative;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    overflow: hidden;
+    flex: 0 0 auto;
+    width: 120px;
+    height: 250px;
+    transition: all 0.5s ease-in-out;   
+    animation: appear 1s ease-in-out;
+}
+
+@keyframes appear {
+    from {
+    opacity: 0;
+    transform: translateX(-500%);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container:hover {
+    width: 350px;
+    transform-origin: center;
+}
+
+
+.bigClass {
+    display: inline-block;
+    position: relative;
+}
+
+.content-container {
+    margin-left: 10px;
+    font-family: Cormorant-Regular;
+    position: absolute;
+    bottom: 270px;
+    font-size: 18px;
+    animation: opacity 1s ease-in-out;
+}
+
+
+@keyframes opacity{
+    from {
+        opacity: 0%;
+    }
+    to{
+        opacity:100%
+    }
+}
+
+.title{
+    font-family: Cormorant-Bold;
+}
+
+.bigClass:hover .content-container {
+    display: block !important;
+}
+
+.filter-container{
+    margin-top: 100px;
+    animation: moveup 1s ease-in-out;
+}
+
+@keyframes moveup {
+    from {
+    opacity: 0;
+    transform: translateY(100%);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+
+.years, .projectType, .borough {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: CormorantUpright-SemiBold;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+  
+.years div, .projectType div, .borough div {
+    line-height: 1;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
+.years div.selected, 
+.projectType div.selected, 
+.borough div.selected {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+html, body {
+    cursor: none;
+}
+
+
