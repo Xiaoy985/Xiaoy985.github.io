@@ -279,6 +279,13 @@ html, body {
     background-color: transparent;
 }
 
+.years div:active, 
+.projectType div:active, 
+.borough div:active { 
+    background-color: white !important;
+    color: black !important;
+}
+
 .content-container{
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
@@ -288,7 +295,6 @@ html, body {
     max-width: 100%;
     width: 0;
 }
-
 
 .bigClass .image-container:hover + .content-container {
     display: flex;
