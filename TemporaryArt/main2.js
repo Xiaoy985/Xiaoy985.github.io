@@ -3,18 +3,18 @@ const projectTypeDivs = document.querySelectorAll('.projectType div');
 const boroughDivs = document.querySelectorAll('.borough div');
 
 function handleClick(event) {
-  const target = event.target;
-  const isAlreadySelected = target.classList.contains('selected');
+   const target = event.target;
+   const isAlreadySelected = target.classList.contains('selected');
 
-  // Remove selected class from previously selected elements
-  yearDivs.forEach(div => div.classList.remove('selected'));
-  projectTypeDivs.forEach(div => div.classList.remove('selected'));
-  boroughDivs.forEach(div => div.classList.remove('selected'));
+// Remove selected class from previously selected elements
+   yearDivs.forEach(div => div.classList.remove('selected'));
+   projectTypeDivs.forEach(div => div.classList.remove('selected'));
+   boroughDivs.forEach(div => div.classList.remove('selected'));
 
-  // Apply selected class to the current element
-  if (!isAlreadySelected) {
-    target.classList.add('selected');
-  }
+// Apply selected class to the current element
+   if (!isAlreadySelected) {
+      target.classList.add('selected');
+   }
 }
 
 // Add event listeners to the elements
