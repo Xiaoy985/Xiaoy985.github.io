@@ -24,6 +24,10 @@ body {
     padding: 0;
 }
 
+html, body {
+    cursor: none;
+}
+
 .cursor {
     position: fixed;
     top: 0;
@@ -38,6 +42,12 @@ body {
     mix-blend-mode: exclusion;
     transition: transform 0.1s ease-out;
 }
+
+.image-container :hover .cursor {
+    width: 40px;
+    height: 40px;
+}
+  
 
 .logo {
     font-family: CormorantUpright-SemiBold;
@@ -200,16 +210,42 @@ a{
     cursor: pointer;
 }
 
-html, body {
-    cursor: none;
+
+@media (prefers-color-scheme: dark) {
+    
+body{
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+.filter-container{
+    color: white;
+}
+
+.years div, .projectType div, .borough div {
+    color: white;
+    background-color: transparent;
+}
+
+.years div:active, 
+.projectType div:active, 
+.borough div:active { 
+    background-color: white !important;
+    color: black !important;
+}
+
+.content-container{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+} 
 }
 
 
 @media screen and (max-width: 500px){
 
-body{
-    background-color: black;
-}
 
 .cursor {
     display: none;
@@ -219,9 +255,6 @@ html, body {
     cursor: auto;
 }
 
-a{
-    color: white;
-}
 
 .content{
     flex-direction: column;
@@ -244,7 +277,6 @@ html, body {
 
 .filter-container{
     margin-top: 80px;
-    color: white;
     font-size: 0.6em;
 }
 
@@ -275,20 +307,17 @@ html, body {
 }
 
 .years div, .projectType div, .borough div {
-    color: white;
     background-color: transparent;
 }
 
 .years div:active, 
 .projectType div:active, 
 .borough div:active { 
-    background-color: white !important;
     color: black !important;
 }
 
 .content-container{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     bottom: 10px;
     flex-direction: column;
     font-size: 0.8em;

@@ -43,7 +43,13 @@
 }
 
 
-/* Styles for screens with a maximum width of 500px */
+@media (prefers-color-scheme: dark) {
+body{
+    background-color: black;
+}
+}
+
+
 @media screen and (max-width: 500px) {
 
 /* Grid container */

@@ -26,9 +26,8 @@ boroughDivs.forEach(div => div.addEventListener('click', handleClick));
 const cursor = document.querySelector('.cursor');
 
 document.addEventListener('mousemove', e => {
-  cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+   cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
 });
-
 
 
 //json file

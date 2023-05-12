@@ -1,0 +1,73 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+
+
+.content{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.name{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.studio{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+
+.projects{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.projects div{
+    margin-top: 5px;
+}
+
+/* .projects div:hover{
+background-color: black;
+color: white;
+} */
+
+
+
+.lab{
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.practices{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.practices div{
+    margin-top: 5px;
+}
